@@ -1,0 +1,12 @@
+state=
+{
+	id=767
+	name="STATE_767" # North Darfur
+	manpower = 1
+	
+	state_category = wasteland
+
+	provinces={
+		7881
+	}
+}

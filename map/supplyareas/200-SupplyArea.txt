@@ -1,0 +1,8 @@
+supply_area={
+	id=200
+	name="SUPPLYAREA_200" # filler supply area for extra states
+	value=11
+	states={
+		280 290 292 305 492 496 497 498 499 505 678
+	}
+}

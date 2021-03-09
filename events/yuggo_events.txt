@@ -1,0 +1,446 @@
+add_namespace = yuggo
+
+##Event: Yugoslavian question
+country_event = {
+	id = yuggo.1
+	title = yuggo.1.title
+	desc = yuggo.1.desc
+	picture = GFX_report_event_yugoslavian_split
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		date > 1941.10.1
+tag = SOV
+	}
+	option = {
+		name = yuggo.1.a
+		ai_chance = { factor = 1}
+		country_event = { days = 1 id = yuggo.2 }
+set_global_flag = yugopartisan
+	}
+}
+##Event: Establishment of new Yugoslavia
+country_event = {
+	id = yuggo.2
+	title = yuggo.2.title
+	desc = yuggo.2.desc
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		tag = SOV
+	}
+	option = {
+		name = yuggo.2.a
+		ai_chance = { factor = 1}
+		YUG = { set_state_owner = 107 }
+YUG = { set_state_owner = 104 }
+YUG = { set_state_owner = 108 }
+YUG = { set_state_owner = 105 }
+YUG = { set_state_owner = 109 }
+YUG = { set_state_owner = 789 }
+YUG = { set_state_owner = 102 }
+YUG = { set_state_owner = 108 }
+YUG = { set_state_owner = 106 }
+YUG = { set_state_owner = 764 }
+YUG = { set_state_owner = 45 }
+
+
+
+YUG = {
+add_manpower = 2000000
+add_ideas = partisan_warfare
+remove_ideas = GDU_neutrality
+add_to_war = { targeted_alliance = SOV enemy = ITA } 
+add_to_war = { targeted_alliance = SOV enemy = GER }
+add_to_war = { targeted_alliance = SOV enemy = BUL }
+add_to_war = { targeted_alliance = SOV enemy = ROM }
+add_to_war = { targeted_alliance = SOV enemy = HUN }
+}
+puppet = YUG 
+YUG = { add_to_faction = SOV }
+	}
+}
+##Event: Location Selection
+country_event = {
+	id = yuggo.3
+	title = yuggo.3.title
+	desc = yuggo.3.desc
+	picture = GFX_report_event_yugoslavian_split
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		date > 1941.11.1
+tag = YUG
+	}
+	option = {
+		name = yuggo.3.a
+		ai_chance = { factor = 1}
+		load_oob = partisan1
+	}
+	option = {
+		name = yuggo.3.b
+		ai_chance = { factor = 1}
+		load_oob = partisan2
+	}
+	option = {
+		name = yuggo.3.c
+		ai_chance = { factor = 1}
+		load_oob = partisan3
+	}
+	option = {
+		name = yuggo.3.d
+		ai_chance = { factor = 1}
+		load_oob = partisanwest
+	}
+	option = {
+		name = yuggo.3.e
+		ai_chance = { factor = 1}
+		load_oob = partisaneast
+	}
+	option = {
+		name = yuggo.3.f
+		ai_chance = { factor = 1}
+		load_oob = partisancity
+	}
+	option = {
+		name = yuggo.3.g
+		ai_chance = { factor = 1}
+		load_oob = partisancroatia
+	}
+	option = {
+		name = yuggo.3.h
+		ai_chance = { factor = 1}
+		load_oob = partisanserbia
+	}
+}
+##Event: §RYugoslavian rebels !§
+country_event = {
+	id = yuggo.4
+	title = yuggo.4.title
+	desc = yuggo.4.desc
+	picture = GFX_report_event_yugoslavian_split
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		date > 1941.12.15
+tag = ITA
+	}
+	option = {
+		name = yuggo.4.a
+		ai_chance = { factor = 1}
+	}
+}
+country_event = {
+	id = yuggo.5
+	title = yuggo.3.title
+	desc = yuggo.3.desc
+	picture = GFX_report_event_yugoslavian_split
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		date > 1942.1.25
+tag = YUG
+	}
+	option = {
+		name = yuggo.3.a
+		ai_chance = { factor = 1}
+		load_oob = partisan1
+	}
+	option = {
+		name = yuggo.3.b
+		ai_chance = { factor = 1}
+		load_oob = partisan2
+	}
+	option = {
+		name = yuggo.3.c
+		ai_chance = { factor = 1}
+		load_oob = partisan3
+	}
+	option = {
+		name = yuggo.3.d
+		ai_chance = { factor = 1}
+		load_oob = partisanwest
+	}
+	option = {
+		name = yuggo.3.e
+		ai_chance = { factor = 1}
+		load_oob = partisaneast
+	}
+	option = {
+		name = yuggo.3.f
+		ai_chance = { factor = 1}
+		load_oob = partisancity
+	}
+	option = {
+		name = yuggo.3.g
+		ai_chance = { factor = 1}
+		load_oob = partisancroatia
+	}
+	option = {
+		name = yuggo.3.h
+		ai_chance = { factor = 1}
+		load_oob = partisanserbia
+	}
+}
+country_event = {
+	id = yuggo.6
+	title = yuggo.3.title
+	desc = yuggo.3.desc
+	picture = GFX_report_event_yugoslavian_split
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		date > 1942.2.30
+tag = YUG
+	}
+	option = {
+		name = yuggo.3.a
+		ai_chance = { factor = 1}
+		load_oob = partisan1
+	}
+	option = {
+		name = yuggo.3.b
+		ai_chance = { factor = 1}
+		load_oob = partisan2
+	}
+	option = {
+		name = yuggo.3.c
+		ai_chance = { factor = 1}
+		load_oob = partisan3
+	}
+	option = {
+		name = yuggo.3.d
+		ai_chance = { factor = 1}
+		load_oob = partisanwest
+	}
+	option = {
+		name = yuggo.3.e
+		ai_chance = { factor = 1}
+		load_oob = partisaneast
+	}
+	option = {
+		name = yuggo.3.f
+		ai_chance = { factor = 1}
+		load_oob = partisancity
+	}
+	option = {
+		name = yuggo.3.g
+		ai_chance = { factor = 1}
+		load_oob = partisancroatia
+	}
+	option = {
+		name = yuggo.3.h
+		ai_chance = { factor = 1}
+		load_oob = partisanserbia
+	}
+}
+country_event = {
+	id = yuggo.7
+	title = yuggo.3.title
+	desc = yuggo.3.desc
+	picture = GFX_report_event_yugoslavian_split
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		date > 1942.4.3
+tag = YUG
+	}
+	option = {
+		name = yuggo.3.a
+		ai_chance = { factor = 1}
+		load_oob = partisan1
+	}
+	option = {
+		name = yuggo.3.b
+		ai_chance = { factor = 1}
+		load_oob = partisan2
+	}
+	option = {
+		name = yuggo.3.c
+		ai_chance = { factor = 1}
+		load_oob = partisan3
+	}
+	option = {
+		name = yuggo.3.d
+		ai_chance = { factor = 1}
+		load_oob = partisanwest
+	}
+	option = {
+		name = yuggo.3.e
+		ai_chance = { factor = 1}
+		load_oob = partisaneast
+	}
+	option = {
+		name = yuggo.3.f
+		ai_chance = { factor = 1}
+		load_oob = partisancity
+	}
+	option = {
+		name = yuggo.3.g
+		ai_chance = { factor = 1}
+		load_oob = partisancroatia
+	}
+	option = {
+		name = yuggo.3.h
+		ai_chance = { factor = 1}
+		load_oob = partisanserbia
+	}
+}
+country_event = {
+	id = yuggo.8
+	title = yuggo.3.title
+	desc = yuggo.3.desc
+	picture = GFX_report_event_yugoslavian_split
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		date > 1942.5.19
+tag = YUG
+	}
+	option = {
+		name = yuggo.3.a
+		ai_chance = { factor = 1}
+		load_oob = partisan1
+	}
+	option = {
+		name = yuggo.3.b
+		ai_chance = { factor = 1}
+		load_oob = partisan2
+	}
+	option = {
+		name = yuggo.3.c
+		ai_chance = { factor = 1}
+		load_oob = partisan3
+	}
+	option = {
+		name = yuggo.3.d
+		ai_chance = { factor = 1}
+		load_oob = partisanwest
+	}
+	option = {
+		name = yuggo.3.e
+		ai_chance = { factor = 1}
+		load_oob = partisaneast
+	}
+	option = {
+		name = yuggo.3.f
+		ai_chance = { factor = 1}
+		load_oob = partisancity
+	}
+	option = {
+		name = yuggo.3.g
+		ai_chance = { factor = 1}
+		load_oob = partisancroatia
+	}
+	option = {
+		name = yuggo.3.h
+		ai_chance = { factor = 1}
+		load_oob = partisanserbia
+	}
+}
+country_event = {
+	id = yuggo.9
+	title = yuggo.3.title
+	desc = yuggo.3.desc
+	picture = GFX_report_event_yugoslavian_split
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		date > 1942.6.30
+tag = YUG
+	}
+	option = {
+		name = yuggo.3.a
+		ai_chance = { factor = 1}
+		load_oob = partisan1
+	}
+	option = {
+		name = yuggo.3.b
+		ai_chance = { factor = 1}
+		load_oob = partisan2
+	}
+	option = {
+		name = yuggo.3.c
+		ai_chance = { factor = 1}
+		load_oob = partisan3
+	}
+	option = {
+		name = yuggo.3.d
+		ai_chance = { factor = 1}
+		load_oob = partisanwest
+	}
+	option = {
+		name = yuggo.3.e
+		ai_chance = { factor = 1}
+		load_oob = partisaneast
+	}
+	option = {
+		name = yuggo.3.f
+		ai_chance = { factor = 1}
+		load_oob = partisancity
+	}
+	option = {
+		name = yuggo.3.g
+		ai_chance = { factor = 1}
+		load_oob = partisancroatia
+	}
+	option = {
+		name = yuggo.3.h
+		ai_chance = { factor = 1}
+		load_oob = partisanserbia
+	}
+}
+country_event = {
+	id = yuggo.10
+	title = yuggo.3.title
+	desc = yuggo.3.desc
+	picture = GFX_report_event_yugoslavian_split
+	fire_only_once = yes
+	major = yes
+	trigger = {
+		date > 1942.8.1
+tag = YUG
+	}
+	option = {
+		name = yuggo.3.a
+		ai_chance = { factor = 1}
+		load_oob = partisan1
+	}
+	option = {
+		name = yuggo.3.b
+		ai_chance = { factor = 1}
+		load_oob = partisan2
+	}
+	option = {
+		name = yuggo.3.c
+		ai_chance = { factor = 1}
+		load_oob = partisan3
+	}
+	option = {
+		name = yuggo.3.d
+		ai_chance = { factor = 1}
+		load_oob = partisanwest
+	}
+	option = {
+		name = yuggo.3.e
+		ai_chance = { factor = 1}
+		load_oob = partisaneast
+	}
+	option = {
+		name = yuggo.3.f
+		ai_chance = { factor = 1}
+		load_oob = partisancity
+	}
+	option = {
+		name = yuggo.3.g
+		ai_chance = { factor = 1}
+		load_oob = partisancroatia
+	}
+	option = {
+		name = yuggo.3.h
+		ai_chance = { factor = 1}
+		load_oob = partisanserbia
+	}
+}
