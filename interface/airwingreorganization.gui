@@ -13,7 +13,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "title"
 			position = {x=20 y=13}
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			maxWidth = 256
 			maxHeight = 26
 			format = left
@@ -21,7 +21,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "wings_name"
 			position = {x=20 y=29}
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			maxWidth = 256
 			maxHeight = 26
 			format = left
@@ -37,7 +37,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "warning_text"
 			position = {x=16 y=133}
-			font = "cg_18b"
+			font = "hoi_18mbs"
 			maxWidth = 250
 			maxHeight = 50
 			format = left
@@ -48,7 +48,7 @@ guiTypes = {
 			spriteType = "GFX_button_123x34"
 			#quadTextureSprite ="button_type_7"	
 			#buttonText = "AIRWING_SPLIT_CONFIRM"
-			buttonFont = "cg_18b"
+			buttonFont = "hoi_20b"
 			shortcut = "RETURN"
 			clicksound = click_default
 		}
@@ -108,7 +108,7 @@ guiTypes = {
 			name = "remove_planes_1"
 			position = {x=16 y=66}
 			spriteType = "GFX_tiling_sort_button"
-			font = "cg_18b"		
+			font = "hoi_18mbs"		
 			clicksound = click_default
 		}
 
@@ -116,7 +116,7 @@ guiTypes = {
 			name = "remove_planes_2"
 			position = {x=75 y=66}
 			spriteType = "GFX_tiling_sort_button"
-			font = "cg_18b"			
+			font = "hoi_18mbs"			
 			clicksound = click_default
 		}
 
@@ -124,7 +124,7 @@ guiTypes = {
 			name = "add_planes_1"
 			position = {x=144 y=66}
 			spriteType = "GFX_tiling_sort_button"
-			font = "cg_18b"		
+			font = "hoi_18mbs"		
 			clicksound = click_default
 		}
 			
@@ -132,7 +132,7 @@ guiTypes = {
 			name = "add_planes_2"
 			position = {x=203 y=66}
 			spriteType = "GFX_tiling_sort_button"
-			font = "cg_18b"		
+			font = "hoi_18mbs"		
 			clicksound = click_default
 		}
 	}
@@ -143,7 +143,7 @@ guiTypes = {
 		size = { width =964 height=820 }
 		orientation= center
 		moveable = yes
-		fade_time = 1
+		fade_time = 200
 		fade_type = linear
 		clipping = no
 
@@ -163,7 +163,7 @@ guiTypes = {
 			name = "close_button"
 			position = { x = -45 y = 13 }
 			quadTextureSprite ="GFX_closebutton"
-			buttonFont = "cg_16b"
+			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			clicksound = click_close
@@ -174,7 +174,7 @@ guiTypes = {
 			name = "action_name"
 			#position = {x=110 y=22}
 			position = {x=140 y=22}
-			font = "cg_18b"
+			font = "hoi_20bs"
 			maxWidth = 310
 			maxHeight = 23
 			format = center
@@ -185,7 +185,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "warehouse_label"
 			position = {x=30 y=60}
-			font = "cg_18b"
+			font = "hoi_20bs"
 			maxWidth = 200
 			maxHeight = 23
 			format = Left
@@ -305,7 +305,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "count"
 				position = {x=7 y=3}
-				font = "cg_18b"
+				font = "hoi_18mbs"
 				maxWidth = 450
 				maxHeight = 23
 				format = left
@@ -328,7 +328,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "wing_name"
 				position = {x=175 y=4}
-				font = "cg_18b"
+				font = "hoi_18mbs"
 				maxWidth = 450
 				maxHeight = 23
 				format = left
@@ -339,7 +339,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "region"
 				position = {x=175 y=22}
-				font = "cg_16b"
+				font = "hoi_16mbs"
 				maxWidth = 160
 				fixedsize = yes
 				maxHeight = 23
@@ -401,7 +401,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "count"
 				position = {x=7 y=3}
-				font = "cg_18b"
+				font = "hoi_18mbs"
 				maxWidth = 450
 				maxHeight = 23
 				format = left
@@ -424,7 +424,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "wing_name"
 				position = {x=175 y=4}
-				font = "cg_18b"
+				font = "hoi_18mbs"
 				maxWidth = 450
 				maxHeight = 23
 				format = left
@@ -435,7 +435,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "region"
 				position = {x=175 y=22}
-				font = "cg_16b"
+				font = "hoi_16mbs"
 				maxWidth = 160
 				fixedsize = yes
 				maxHeight = 23
@@ -518,7 +518,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "current_manpower_left"
 			position = { x = 128 y = 774 }
-			font = "cg_18b"
+			font = "hoi_18mbs"
 			text = "Stuff"
 			maxWidth = 60
 			maxHeight = 20
@@ -540,7 +540,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "current_manpower_right"
 			position = { x = 475 y = 774 }
-			font = "cg_18b"
+			font = "hoi_18mbs"
 			text = "Stuff"
 			maxWidth = 60
 			maxHeight = 20
@@ -567,7 +567,7 @@ guiTypes = {
 				show_position = { x = 60 y = -355 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 0
+				animation_time = 500
 				size = { width=200 height=420 }	
 				verticalScrollbar = "right_vertical_slider"
 				margin = { top = 7 bottom = 7 right = 6 }
@@ -596,7 +596,7 @@ guiTypes = {
 			spriteType = "GFX_button_123x34"
 			#quadTextureSprite ="button_type_7"	
 			#buttonText = "AIRWING_SPLIT_CONFIRM"
-			buttonFont = "cg_18b"
+			buttonFont = "hoi_20b"
 			shortcut = "RETURN"
 			clicksound = click_default
 			text = "BUTTON_OK"
@@ -625,7 +625,7 @@ guiTypes = {
 			name = "manpower_text"
 			position = { x = 65 y = 25 }
 			textureFile = ""
-			font = "cg_18b"
+			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
 			maxWidth = 160
@@ -666,7 +666,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "count"
 			position = {x=7 y=49}
-			font = "cg_18b"
+			font = "hoi_18mbs"
 			maxWidth = 450
 			maxHeight = 23
 			format = left
@@ -677,7 +677,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=0 y=3}
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			maxWidth = 250
 			maxHeight = 23
 			fixedsize = yes			
@@ -689,7 +689,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "type"
 			position = {x=0 y=23}
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			maxWidth = 250
 			maxHeight = 23
 			fixedsize = yes
@@ -746,7 +746,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "count"
 			position = {x=200 y=49}
-			font = "cg_18b"
+			font = "hoi_18mbs"
 			maxWidth = 50
 			maxHeight = 23
 			format = right
@@ -757,7 +757,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = {x=5 y=3}
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			maxWidth = 250
 			maxHeight = 23
 			format = right
@@ -768,7 +768,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "type"
 			position = {x=5 y=23}
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			maxWidth = 250
 			maxHeight = 23
 			format = right

@@ -3407,14 +3407,6 @@ SpriteType = {
 		name = "GFX_Noras_happytime"
 		texturefile = "gfx/interface/goals/focus_usa_happytime.dds"
 	}
-	SpriteType = {
-		name = "GFX_Noras_usanonavyallies"
-		texturefile = "gfx/interface/goals/focus_usa_no_navy_allies.dds"
-	}
-	SpriteType = {
-		name = "GFX_Noras_usacarrierprimacy"
-		texturefile = "gfx/interface/goals/focus_usa_carrier_primacy.dds"
-	}
 ###CANADA### 
 	SpriteType = {
 		name = "Nora_can_wheat_board"

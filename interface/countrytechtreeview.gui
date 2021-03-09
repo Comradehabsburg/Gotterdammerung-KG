@@ -25,7 +25,7 @@ guiTypes = {
 		name = "countrytechtreeview"
 		position = { x=-3 y=78 }
 		size = { width = 100%% height = 100%% }
-		fade_time = 1
+		fade_time = 400
 		fade_type = linear
 
 		background = {
@@ -106,7 +106,7 @@ guiTypes = {
 					name = "infantry_year2"
 					position = { x = 130 y = 50 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1918"
 					maxWidth = 170
@@ -119,7 +119,7 @@ guiTypes = {
 					name = "infantry_year3"
 					position = { x = 270 y = 50 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1936"
 					maxWidth = 170
@@ -131,7 +131,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year5"
 					position = { x = 410 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1938"
 					maxWidth = 170
@@ -143,7 +143,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year6"
 					position = { x = 550 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1939"
 					maxWidth = 170
@@ -155,7 +155,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year7"
 					position = { x = 690 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1940"
 					maxWidth = 170
@@ -167,7 +167,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year8"
 					position = { x = 830 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1941"
 					maxWidth = 170
@@ -179,7 +179,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year9"
 					position = { x = 970 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1942"
 					maxWidth = 170
@@ -191,7 +191,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year10"
 					position = { x = 1110 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1943"
 					maxWidth = 170
@@ -203,7 +203,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year11"
 					position = { x = 1250 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1944"
 					maxWidth = 170
@@ -214,7 +214,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year12"
 					position = { x = 1390 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1945"
 					maxWidth = 170
@@ -225,7 +225,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "infantry_year13"
 					position = { x = 1530 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1946"
 					maxWidth = 170
@@ -366,7 +366,7 @@ guiTypes = {
 					name = "support_year2"
 					position = { x = 90 y = 50 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1918"
 					maxWidth = 170
@@ -379,7 +379,7 @@ guiTypes = {
 					name = "support_year3"
 					position = { x = 243 y = 50 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1936"
 					maxWidth = 170
@@ -391,7 +391,7 @@ guiTypes = {
 #				instantTextBoxType = {
 #					name = "support_year5"
 #					position = { x = 370 y = 50 }
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
 #					text = "1938"
 #					maxWidth = 170
@@ -403,7 +403,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "support_year6"
 					position = { x = 523 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1939"
 					maxWidth = 170
@@ -415,7 +415,7 @@ guiTypes = {
 #				instantTextBoxType = {
 #					name = "support_year7"
 #					position = { x = 650 y = 50 }
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
 #					text = "1940"
 #					maxWidth = 170
@@ -427,7 +427,7 @@ guiTypes = {
 #				instantTextBoxType = {
 #					name = "support_year8"
 #					position = { x = 790 y = 50 }
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
 #					text = "1941"
 #					maxWidth = 170
@@ -439,7 +439,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "support_year9"
 					position = { x = 943 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1942"
 					maxWidth = 170
@@ -451,7 +451,7 @@ guiTypes = {
 #				instantTextBoxType = {
 #					name = "support_year10"
 #					position = { x = 1070 y = 50 }
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
 #					text = "1943"
 #					maxWidth = 170
@@ -463,7 +463,7 @@ guiTypes = {
 #				instantTextBoxType = {
 #					name = "support_year11"
 #					position = { x = 1210 y = 50 }
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
 #					text = "1944"
 #					maxWidth = 170
@@ -474,7 +474,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "support_year12"
 					position = { x = 1363 y = 50 }
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1945"
 					maxWidth = 170
@@ -485,7 +485,7 @@ guiTypes = {
 #				instantTextBoxType = {
 #					name = "support_year13"
 #					position = { x = 1490 y = 50 }
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = { x = 0 y = 0}
 #					text = "1946"
 #					maxWidth = 170
@@ -579,9 +579,9 @@ guiTypes = {
 
 				instantTextBoxType = {
 						name = "armor_reminder"
-						position = { x = 350 y = 700 }
+						position = { x = 400 y = 600 }
 						textureFile = ""
-						font = "hoi_22tech"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1941 Tanks Are Date Locked to 1939"
 						maxWidth = 250
@@ -594,7 +594,7 @@ guiTypes = {
 						name = "armor_reminder2"
 						position = { x = 1250 y = 600 }
 						textureFile = ""
-						font = "hoi_22tech"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1941 Tanks Are Date Locked to 1939"
 						maxWidth = 250
@@ -605,9 +605,9 @@ guiTypes = {
 
 				instantTextBoxType = {
 						name = "armor_reminder3"
-						position = { x = 350 y = 850 }
+						position = { x = 601 y = 850 }
 						textureFile = ""
-						font = "hoi_22tech"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1943 Tanks Are Date Locked to 1942"
 						maxWidth = 250
@@ -620,7 +620,7 @@ guiTypes = {
 						name = "armor_reminder4"
 						position = { x = 1400 y = 700 }
 						textureFile = ""
-						font = "hoi_22tech"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1943 Tanks Are Date Locked to 1942"
 						maxWidth = 250
@@ -633,7 +633,7 @@ guiTypes = {
 						name = "armor_reminder5"
 						position = { x = 700 y = 1000 }
 						textureFile = ""
-						font = "hoi_22tech"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1945 Tanks Are Date Locked to 1944"
 						maxWidth = 250
@@ -652,7 +652,7 @@ guiTypes = {
 						name = "armour_year1"
 						position = { x = 60 y = 2 }
 						textureFile = ""
-						font = "hoi_33"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1918"
 						maxWidth = 80
@@ -665,7 +665,7 @@ guiTypes = {
 						name = "armour_year2"
 						position = { x = 60 y = 140 }
 						textureFile = ""
-						font = "hoi_33"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1934"
 						maxWidth = 80
@@ -678,7 +678,7 @@ guiTypes = {
 						name = "armour_year3"
 						position = { x = 60 y = 278 }
 						textureFile = ""
-						font = "hoi_33"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1936"
 						maxWidth = 80
@@ -691,7 +691,7 @@ guiTypes = {
 						name = "armour_year4"
 						position = { x = 60 y = 420 }
 						textureFile = ""
-						font = "hoi_33"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1939"
 						maxWidth = 80
@@ -704,7 +704,7 @@ guiTypes = {
 						name = "armour_year5"
 						position = { x = 60 y = 560 }
 						textureFile = ""
-						font = "hoi_33"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1941"
 						maxWidth = 80
@@ -717,7 +717,7 @@ guiTypes = {
 						name = "armour_year6"
 						position = { x = 60 y = 698 }
 						textureFile = ""
-						font = "hoi_33"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1943"
 						maxWidth = 80
@@ -730,7 +730,7 @@ guiTypes = {
 						name = "armour_year7"
 						position = { x = 60 y = 838 }
 						textureFile = ""
-						font = "hoi_33"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1945"
 						maxWidth = 80
@@ -751,7 +751,7 @@ guiTypes = {
 						name = "armour_year2_left"
 						position = { x = 0 y = 140 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1934"
 						maxWidth = 80
@@ -764,7 +764,7 @@ guiTypes = {
 						name = "armour_year3_left"
 						position = { x = 0 y = 278 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1936"
 						maxWidth = 80
@@ -777,7 +777,7 @@ guiTypes = {
 						name = "armour_year4_left"
 						position = { x = 0 y = 420 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1939"
 						maxWidth = 80
@@ -790,7 +790,7 @@ guiTypes = {
 						name = "armour_year5_left"
 						position = { x = 0 y = 560 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1941"
 						maxWidth = 80
@@ -803,7 +803,7 @@ guiTypes = {
 						name = "armour_year6_left"
 						position = { x = 0 y = 698 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1943"
 						maxWidth = 80
@@ -816,7 +816,7 @@ guiTypes = {
 						name = "armour_year7_left"
 						position = { x = 0 y = 838 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1945"
 						maxWidth = 80
@@ -984,7 +984,7 @@ guiTypes = {
 					name = "artillery_year2"
 					position = { x = 60 y = 140 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1934"
 					maxWidth = 170
@@ -997,7 +997,7 @@ guiTypes = {
 					name = "artillery_year3"
 					position = { x = 60 y = 278 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1936"
 					maxWidth = 170
@@ -1010,7 +1010,7 @@ guiTypes = {
 					name = "artillery_year4"
 					position = { x = 60 y = 420 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1939"
 					maxWidth = 170
@@ -1023,7 +1023,7 @@ guiTypes = {
 					name = "artillery_year5"
 					position = { x = 60 y = 560 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
 					maxWidth = 170
@@ -1036,7 +1036,7 @@ guiTypes = {
 					name = "artillery_year6"
 					position = { x = 60 y = 698 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1941"
 					maxWidth = 170
@@ -1049,7 +1049,7 @@ guiTypes = {
 					name = "artillery_year7"
 					position = { x = 60 y = 838 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1942"
 					maxWidth = 170
@@ -1062,7 +1062,7 @@ guiTypes = {
 					name = "artillery_year8"
 					position = { x = 60 y = 978 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1943"
 					maxWidth = 170
@@ -1075,7 +1075,7 @@ guiTypes = {
 					name = "artillery_year9"
 					position = { x = 60 y = 1118 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1944"
 					maxWidth = 170
@@ -1088,7 +1088,7 @@ guiTypes = {
 					name = "artillery_year10"
 					position = { x = 60 y = 1258 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1945"
 					maxWidth = 170
@@ -1107,7 +1107,7 @@ guiTypes = {
 						name = "artillery_year2"
 						position = { x = 0 y = 140 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1934"
 						maxWidth = 130
@@ -1120,7 +1120,7 @@ guiTypes = {
 						name = "artillery_year3"
 						position = { x = 0 y = 278 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1936"
 						maxWidth = 130
@@ -1133,7 +1133,7 @@ guiTypes = {
 						name = "artillery_year4"
 						position = { x = 0 y = 420 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1939"
 						maxWidth = 130
@@ -1146,7 +1146,7 @@ guiTypes = {
 						name = "artillery_year5"
 						position = { x = 0 y = 560 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1940"
 						maxWidth = 130
@@ -1159,7 +1159,7 @@ guiTypes = {
 						name = "artillery_year6"
 						position = { x = 0 y = 698 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1941"
 						maxWidth = 130
@@ -1172,7 +1172,7 @@ guiTypes = {
 						name = "artillery_year7"
 						position = { x = 0 y = 838 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1942"
 						maxWidth = 130
@@ -1185,7 +1185,7 @@ guiTypes = {
 						name = "artillery_year8"
 						position = { x = 0 y = 978 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1943"
 						maxWidth = 130
@@ -1198,7 +1198,7 @@ guiTypes = {
 						name = "artillery_year9"
 						position = { x = 0 y = 1118 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1944"
 						maxWidth = 130
@@ -1211,7 +1211,7 @@ guiTypes = {
 						name = "artillery_year10"
 						position = { x = 0 y = 1258 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1945"
 						maxWidth = 130
@@ -1264,7 +1264,7 @@ guiTypes = {
 					name = "naval_year1"
 					position = { x = 224 y = 20 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1922"
 					maxWidth = 170
@@ -1277,7 +1277,7 @@ guiTypes = {
 					name = "naval_year2"
 					position = { x = 644 y = 20 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1936"
 					maxWidth = 170
@@ -1290,7 +1290,7 @@ guiTypes = {
 					name = "naval_year3"
 					position = { x = 1064 y = 20 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
 					maxWidth = 170
@@ -1303,7 +1303,7 @@ guiTypes = {
 					name = "naval_year4"
 					position = { x = 1484 y = 20 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1944"
 					maxWidth = 170
@@ -1528,7 +1528,7 @@ guiTypes = {
 					name = "naval_year1"
 					position = { x = 224 y = 20 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1922"
 					maxWidth = 170
@@ -1541,7 +1541,7 @@ guiTypes = {
 					name = "naval_year2"
 					position = { x = 644 y = 20 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1936"
 					maxWidth = 170
@@ -1554,7 +1554,7 @@ guiTypes = {
 					name = "naval_year3"
 					position = { x = 1064 y = 20 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
 					maxWidth = 170
@@ -1567,7 +1567,7 @@ guiTypes = {
 					name = "naval_year4"
 					position = { x = 1484 y = 20 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1944"
 					maxWidth = 170
@@ -1810,7 +1810,7 @@ guiTypes = {
 						name = "I Forgot Designer Explanation"
 						position = { x = 110 y = 20 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "These 'I Forgot Designer' technologies are a QOL feature giving you a second chance to research an equipment type if you forgot to pick the right designer. You can research these in a day or two to get the designer (except for 1936 and interwar techs)."
 						maxWidth = 1600
@@ -1836,7 +1836,7 @@ guiTypes = {
 					name = "naval_year1"
 					position = { x = 224 y = 130 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1922"
 					maxWidth = 170
@@ -1849,7 +1849,7 @@ guiTypes = {
 					name = "naval_year2"
 					position = { x = 644 y = 130 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1936"
 					maxWidth = 170
@@ -1862,7 +1862,7 @@ guiTypes = {
 					name = "naval_year3"
 					position = { x = 1064 y = 130 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
 					maxWidth = 170
@@ -1875,7 +1875,7 @@ guiTypes = {
 					name = "naval_year4"
 					position = { x = 1484 y = 130 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1944"
 					maxWidth = 170
@@ -2054,7 +2054,7 @@ guiTypes = {
 				name = "airtech_year2"
 				position = { x = 60 y = 160 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1933"
 				maxWidth = 170
@@ -2067,7 +2067,7 @@ guiTypes = {
 				name = "airtech_year3"
 				position = { x = 60 y = 298 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1936"
 				maxWidth = 170
@@ -2080,7 +2080,7 @@ guiTypes = {
 				name = "airtech_year4"
 				position = { x = 60 y = 440 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1940"
 				maxWidth = 170
@@ -2093,7 +2093,7 @@ guiTypes = {
 				name = "airtech_year5"
 				position = { x = 60 y = 580 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1944"
 				maxWidth = 170
@@ -2106,7 +2106,7 @@ guiTypes = {
 				name = "airtech_year6"
 				position = { x = 60 y = 858 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1945"
 				maxWidth = 170
@@ -2119,7 +2119,7 @@ guiTypes = {
 				name = "airtech_year7"
 				position = { x = 60 y = 998 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1950"
 				maxWidth = 170
@@ -2138,7 +2138,7 @@ guiTypes = {
 					name = "airtech_year2"
 					position = { x = 60 y = 160 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1933"
 					maxWidth = 170
@@ -2151,7 +2151,7 @@ guiTypes = {
 					name = "airtech_year3"
 					position = { x = 60 y = 298 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1936"
 					maxWidth = 170
@@ -2164,7 +2164,7 @@ guiTypes = {
 					name = "airtech_year4"
 					position = { x = 60 y = 440 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
 					maxWidth = 170
@@ -2177,7 +2177,7 @@ guiTypes = {
 					name = "airtech_year5"
 					position = { x = 60 y = 580 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1944"
 					maxWidth = 170
@@ -2190,7 +2190,7 @@ guiTypes = {
 					name = "airtech_year6"
 					position = { x = 60 y = 858 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1945"
 					maxWidth = 170
@@ -2203,7 +2203,7 @@ guiTypes = {
 					name = "airtech_year7"
 					position = { x = 60 y = 998 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1950"
 					maxWidth = 170
@@ -2383,7 +2383,7 @@ guiTypes = {
 						name = "I Forgot Designer Explanation"
 						position = { x = 110 y = 20 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "These 'I Forgot Designer' technologies are a QOL feature giving you a second chance to research an equipment type if you forgot to pick the right designer. You can research these in a day or two to get the designer (except for 1936 and interwar techs)."
 						maxWidth = 1600
@@ -2419,7 +2419,7 @@ guiTypes = {
 				name = "airtech_year2"
 				position = { x = 60 y = 160 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1933"
 				maxWidth = 170
@@ -2432,7 +2432,7 @@ guiTypes = {
 				name = "airtech_year3"
 				position = { x = 60 y = 298 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1936"
 				maxWidth = 170
@@ -2445,7 +2445,7 @@ guiTypes = {
 				name = "airtech_year4"
 				position = { x = 60 y = 440 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1940"
 				maxWidth = 170
@@ -2458,7 +2458,7 @@ guiTypes = {
 				name = "airtech_year5"
 				position = { x = 60 y = 580 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1944"
 				maxWidth = 170
@@ -2471,7 +2471,7 @@ guiTypes = {
 				name = "airtech_year6"
 				position = { x = 60 y = 858 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1945"
 				maxWidth = 170
@@ -2484,7 +2484,7 @@ guiTypes = {
 				name = "airtech_year7"
 				position = { x = 60 y = 998 }
 				textureFile = ""
-				font = "vic_36s"
+				font = "hoi_36header"
 				borderSize = {x = 0 y = 4}
 				text = "1950"
 				maxWidth = 170
@@ -2503,7 +2503,7 @@ guiTypes = {
 					name = "airtech_year2"
 					position = { x = 60 y = 160 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1933"
 					maxWidth = 170
@@ -2516,7 +2516,7 @@ guiTypes = {
 					name = "airtech_year3"
 					position = { x = 60 y = 298 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1936"
 					maxWidth = 170
@@ -2529,7 +2529,7 @@ guiTypes = {
 					name = "airtech_year4"
 					position = { x = 60 y = 440 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
 					maxWidth = 170
@@ -2542,7 +2542,7 @@ guiTypes = {
 					name = "airtech_year5"
 					position = { x = 60 y = 580 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1944"
 					maxWidth = 170
@@ -2555,7 +2555,7 @@ guiTypes = {
 					name = "airtech_year6"
 					position = { x = 60 y = 858 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1945"
 					maxWidth = 170
@@ -2568,7 +2568,7 @@ guiTypes = {
 					name = "airtech_year7"
 					position = { x = 60 y = 998 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1950"
 					maxWidth = 170
@@ -2748,7 +2748,7 @@ guiTypes = {
 					name = "industry_year2"
 					position = { x = 0 y = 140 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1936"
 					maxWidth = 130
@@ -2761,7 +2761,7 @@ guiTypes = {
 #					name = "industry_year3"
 #					position = { x = 0 y = 280 }
 #					textureFile = ""
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
 #					text = "1935"
 #					maxWidth = 130
@@ -2774,9 +2774,9 @@ guiTypes = {
 						name = "industry_reminder"
 						position = { x = 545 y = 80 }
 						textureFile = ""
-						font = "hoi_33"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "Research     Both                  |                    |    v                   v"
+						text = "Research    Both    |      |  v      v"
 						maxWidth = 170
 						maxHeight = 32
 						format = left
@@ -2787,7 +2787,7 @@ guiTypes = {
 					name = "industry_year4"
 					position = { x = 0 y = 420 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1937"
 					maxWidth = 130
@@ -2800,7 +2800,7 @@ guiTypes = {
 					name = "industry_year5"
 					position = { x = 0 y = 560 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1939"
 					maxWidth = 130
@@ -2813,7 +2813,7 @@ guiTypes = {
 					name = "industry_year6"
 					position = { x = 0 y = 700 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1941"
 					maxWidth = 130
@@ -2826,7 +2826,7 @@ guiTypes = {
 					name = "industry_year7"
 					position = { x = 0 y = 840 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1943"
 					maxWidth = 130
@@ -2839,7 +2839,7 @@ guiTypes = {
 					name = "industry_year8"
 					position = { x = 0 y = 980 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1945"
 					maxWidth = 130
@@ -2861,7 +2861,7 @@ guiTypes = {
 					name = "industry_year2"
 					position = { x = 0 y = 140 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1936"
 					maxWidth = 130
@@ -2874,7 +2874,7 @@ guiTypes = {
 #					name = "industry_year3"
 #					position = { x = 0 y = 280 }
 #					textureFile = ""
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
 #					text = "1935"
 #					maxWidth = 130
@@ -2887,7 +2887,7 @@ guiTypes = {
 					name = "industry_year4"
 					position = { x = 0 y = 420 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1937"
 					maxWidth = 130
@@ -2900,7 +2900,7 @@ guiTypes = {
 					name = "industry_year5"
 					position = { x = 0 y = 560 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1939"
 					maxWidth = 130
@@ -2913,7 +2913,7 @@ guiTypes = {
 					name = "industry_year6"
 					position = { x = 0 y = 700 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1941"
 					maxWidth = 130
@@ -2926,7 +2926,7 @@ guiTypes = {
 					name = "industry_year7"
 					position = { x = 0 y = 840 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1943"
 					maxWidth = 130
@@ -2939,7 +2939,7 @@ guiTypes = {
 #					name = "industry_year8"
 #					position = { x = 0 y = 980 }
 #					textureFile = ""
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
 #					text = "1943"
 #					maxWidth = 130
@@ -3203,7 +3203,7 @@ guiTypes = {
 				name = "mob_warfare_desc"
 				position = { x = 140 y = 90 }
 				textureFile = ""
-				font = "cg_18b"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
 				text = "MOBILE_WARFARE_DOCTRINE_DESC"
 				maxWidth = 350
@@ -3216,7 +3216,7 @@ guiTypes = {
 				name = "superior_firepower_desc"
 				position = { x = 600 y = 90 }
 				textureFile = ""
-				font = "cg_18b"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
 				text = "SUPERIOR_FIREPOWER_DOCTRINE_DESC"
 				maxWidth = 400
@@ -3229,7 +3229,7 @@ guiTypes = {
 				name = "grand_battleplan_desc"
 				position = { x = 1100 y = 90 }
 				textureFile = ""
-				font = "cg_18b"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
 				text = "Specialized training and attention to terrain are the keys to success. We can focus on semi-motorized desert warfare in support of tanks, or in jungle infiltration assault tactics."
 				maxWidth = 350
@@ -3242,7 +3242,7 @@ guiTypes = {
 				name = "mass assault_desc"
 				position = { x = 1606 y = 90 }
 				textureFile = ""
-				font = "cg_18b"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
 				text = "MASS_ASSAULT_DOCTRINE_DESC"
 				maxWidth = 300
@@ -3561,7 +3561,7 @@ guiTypes = {
 				name = "fleet_in_being_desc"
 				position = { x = 130 y = 70 }
 				textureFile = ""
-				font = "cg_18b"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
 				text = "FLEET_IN_BEING_DESC"
 				maxWidth = 380
@@ -3587,7 +3587,7 @@ guiTypes = {
 				name = "trade_interdiction_desc"
 				position = { x = 610 y = 70 }
 				textureFile = ""
-				font = "cg_18b"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
 				text = "TRADE_INTERDICTION_DESC"
 				maxWidth = 380
@@ -3613,7 +3613,7 @@ guiTypes = {
 				name = "base_strike_desc"
 				position = { x = 1095 y = 70 }
 				textureFile = ""
-				font = "cg_18b"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
 				text = "BASE_STRIKE_DESC"
 				maxWidth = 380
@@ -3725,7 +3725,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "strategic_destruction_desc"
 				position = { x = 190 y = 70 }
-				font = "cg_18b"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
 				text = "STRATEGIC_DESTRUCTION_DESC"
 				maxWidth = 380
@@ -3749,7 +3749,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "battlefield_support_desc"
 				position = { x = 740 y = 70 }
-				font = "cg_18b"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
 				text = "BATTLEFIELD_SUPPORT_DESC"
 				maxWidth = 380
@@ -3773,7 +3773,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name = "operational_integrity_desc"
 				position = { x = 1275 y = 82 }
-				font = "cg_18b"
+				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
 				text = "OPERATIONAL_INTEGRITY_DESC"
 				maxWidth = 380
@@ -3797,7 +3797,7 @@ guiTypes = {
 # 			instantTextBoxType = {
 #				name = "strategic_destruction_desc"
 #				position = { x = 1592 y = 70 }
-#				font = "cg_18b"
+#				font = "hoi_20b"
 #				borderSize = {x = 0 y = 4}
 #				text = "STRATEGIC_DESTRUCTION_DESC"
 #				maxWidth = 380
@@ -3900,7 +3900,7 @@ guiTypes = {
 #					name = "wonderweapon_year2"
 #					position = { x = 0 y = 140 }
 #					textureFile = ""
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
 #					text = "1936"
 #					maxWidth = 130
@@ -3913,7 +3913,7 @@ guiTypes = {
 					name = "wonderweapon_year3"
 					position = { x = 0 y = 260 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
 					maxWidth = 130
@@ -3926,7 +3926,7 @@ guiTypes = {
 					name = "wonderweapon_year4"
 					position = { x = 0 y = 380 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1943"
 					maxWidth = 130
@@ -3939,7 +3939,7 @@ guiTypes = {
 					name = "wonderweapon_year5"
 					position = { x = 0 y = 500 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1944"
 					maxWidth = 130
@@ -3952,7 +3952,7 @@ guiTypes = {
 					name = "wonderweapon_year6"
 					position = { x = 0 y = 620 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1945"
 					maxWidth = 130
@@ -3965,7 +3965,7 @@ guiTypes = {
 					name = "wonderweapon_year7"
 					position = { x = 0 y = 740 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1946"
 					maxWidth = 130
@@ -3978,7 +3978,7 @@ guiTypes = {
 #					name = "wonderweapon_year8"
 #					position = { x = 0 y = 860 }
 #					textureFile = ""
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
 #					text = "1943"
 #					maxWidth = 130
@@ -3991,7 +3991,7 @@ guiTypes = {
 #					name = "wonderweapon_year9"
 #					position = { x = 0 y = 1100 }
 #					textureFile = ""
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
 #					text = "1944"
 #					maxWidth = 130
@@ -4004,7 +4004,7 @@ guiTypes = {
 #					name = "wonderweapon_year10"
 #					position = { x = 0 y = 1258 }
 #					textureFile = ""
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
 #					text = "1945"
 #					maxWidth = 130
@@ -4025,7 +4025,7 @@ guiTypes = {
 					name = "wonderweapon_year2"
 					position = { x = 0 y = 140 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1936"
 					maxWidth = 130
@@ -4038,7 +4038,7 @@ guiTypes = {
 #					name = "wonderweapon_year3"
 #					position = { x = 0 y = 260 }
 #					textureFile = ""
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
 #					text = "1935"
 #					maxWidth = 130
@@ -4051,7 +4051,7 @@ guiTypes = {
 #					name = "wonderweapon_year4"
 #					position = { x = 0 y = 380 }
 #					textureFile = ""
-#					font = "vic_36s"
+#					font = "hoi_36header"
 #					borderSize = {x = 0 y = 4}
 #					text = "1936"
 #					maxWidth = 130
@@ -4064,7 +4064,7 @@ guiTypes = {
 					name = "wonderweapon_year5"
 					position = { x = 0 y = 500 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1938"
 					maxWidth = 130
@@ -4077,7 +4077,7 @@ guiTypes = {
 					name = "wonderweapon_year6"
 					position = { x = 0 y = 620 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1939"
 					maxWidth = 130
@@ -4090,7 +4090,7 @@ guiTypes = {
 					name = "wonderweapon_year7"
 					position = { x = 0 y = 740 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1940"
 					maxWidth = 130
@@ -4103,7 +4103,7 @@ guiTypes = {
 					name = "wonderweapon_year8"
 					position = { x = 0 y = 860 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1941"
 					maxWidth = 130
@@ -4116,7 +4116,7 @@ guiTypes = {
 					name = "wonderweapon_year9"
 					position = { x = 0 y = 980 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1942"
 					maxWidth = 130
@@ -4129,7 +4129,7 @@ guiTypes = {
 					name = "wonderweapon_year10"
 					position = { x = 0 y = 1258 }
 					textureFile = ""
-					font = "vic_36s"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "1945"
 					maxWidth = 130
@@ -4232,7 +4232,7 @@ guiTypes = {
 						name = "I Forgot Designer Explanation"
 						position = { x = 110 y = 20 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "These 'I Forgot Designer' technologies are a QOL feature giving you a second chance to research an equipment type if you forgot to pick the right designer. You can research these in a day or two to get the designer (except for 1936 and interwar techs)."
 						maxWidth = 1600
@@ -4272,7 +4272,7 @@ guiTypes = {
 						name = "forgotarmour_year1"
 						position = { x = 60 y = 2 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1918"
 						maxWidth = 80
@@ -4285,7 +4285,7 @@ guiTypes = {
 						name = "forgotarmour_year2"
 						position = { x = 60 y = 140 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1934"
 						maxWidth = 80
@@ -4298,7 +4298,7 @@ guiTypes = {
 						name = "forgotarmour_year3"
 						position = { x = 60 y = 278 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1936"
 						maxWidth = 80
@@ -4311,7 +4311,7 @@ guiTypes = {
 						name = "forgotarmour_year4"
 						position = { x = 60 y = 420 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1939"
 						maxWidth = 80
@@ -4324,7 +4324,7 @@ guiTypes = {
 						name = "forgotarmour_year5"
 						position = { x = 60 y = 560 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1941"
 						maxWidth = 80
@@ -4337,7 +4337,7 @@ guiTypes = {
 						name = "forgotarmour_year6"
 						position = { x = 60 y = 698 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1943"
 						maxWidth = 80
@@ -4350,7 +4350,7 @@ guiTypes = {
 						name = "forgotarmour_year7"
 						position = { x = 60 y = 838 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1945"
 						maxWidth = 80
@@ -4371,7 +4371,7 @@ guiTypes = {
 						name = "forgotarmour_year2_left"
 						position = { x = 0 y = 140 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1934"
 						maxWidth = 80
@@ -4384,7 +4384,7 @@ guiTypes = {
 						name = "forgotarmour_year3_left"
 						position = { x = 0 y = 278 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1936"
 						maxWidth = 80
@@ -4397,7 +4397,7 @@ guiTypes = {
 						name = "forgotarmour_year4_left"
 						position = { x = 0 y = 420 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1939"
 						maxWidth = 80
@@ -4410,7 +4410,7 @@ guiTypes = {
 						name = "forgotarmour_year5_left"
 						position = { x = 0 y = 560 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1941"
 						maxWidth = 80
@@ -4423,7 +4423,7 @@ guiTypes = {
 						name = "forgotarmour_year6_left"
 						position = { x = 0 y = 698 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1943"
 						maxWidth = 80
@@ -4436,7 +4436,7 @@ guiTypes = {
 						name = "forgotarmour_year7_left"
 						position = { x = 0 y = 838 }
 						textureFile = ""
-						font = "vic_36s"
+						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
 						text = "1945"
 						maxWidth = 80
@@ -4723,7 +4723,7 @@ guiTypes = {
 			name = "tech_info_title"
 			position = { x = 40 y = 15 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 450
@@ -4735,7 +4735,7 @@ guiTypes = {
 			name = "tech_info_description"
 			position = { x = 27 y = 121 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 495
@@ -4776,7 +4776,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "researchtime_label"
 			position = { x = 177 y = 62 }
-			font = "cg_18b"
+			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
 			text = ""
 			maxWidth = 190
@@ -4843,7 +4843,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = -1 y = -21 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -4876,7 +4876,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 3 y = -3 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
 			maxWidth = 160
@@ -4895,7 +4895,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 111 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -4965,7 +4965,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 3 y = -3 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
 			maxWidth = 166
@@ -4983,7 +4983,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 111 y = -21 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5040,7 +5040,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5072,7 +5072,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 6 y = -1 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
 			maxWidth = 156
@@ -5091,7 +5091,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 111 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5199,7 +5199,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 6 y = -1 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Happy-Go-Lucky-Tank"
 			maxWidth = 156
@@ -5218,7 +5218,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 111 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5329,7 +5329,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 17 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 50
@@ -5353,7 +5353,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 3 y = -1 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "Lortespasserkanon"
 			maxWidth = 166
@@ -5380,7 +5380,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 111 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "bang bang klik"
 			maxWidth = 80
@@ -5404,7 +5404,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 3 y = -1 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 166
@@ -5431,7 +5431,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 111 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5475,7 +5475,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 3 y = -1 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = ""
 			maxWidth = 166
@@ -5502,7 +5502,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 111 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5558,7 +5558,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5591,7 +5591,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 3 y = -1 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 270
@@ -5609,7 +5609,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 257 y = -19 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5644,7 +5644,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5677,7 +5677,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 3 y = -1 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 270
@@ -5695,7 +5695,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 257 y = -19 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5750,7 +5750,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5784,7 +5784,7 @@ guiTypes = {
 			name = "Name"
 			position = { x = 3 y = -1 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_20bs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 270
@@ -5802,7 +5802,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = 257 y = -19 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5858,7 +5858,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5894,7 +5894,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5930,7 +5930,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -5967,7 +5967,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -6024,7 +6024,7 @@ guiTypes = {
 			name = "bonus"
 			position = { x = -1 y = -22 }
 			textureFile = ""
-			font = "cg_16b"
+			font = "hoi_16mbs"
 			borderSize = {x = 4 y = 4}
 			text = "lol boat"
 			maxWidth = 80
@@ -6123,7 +6123,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "production_resources"
 			position = { x= 5 y= 12 }
-			font = "cg_16b"
+			font = "hoi_18mbs"
 			maxWidth = 140
 			maxHeight = 25
 			pdx_tooltip = "PRODUCTION_RESOURCE_DESC"
@@ -6217,7 +6217,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "production_resources"
 			position = { x= 5 y= 12 }
-			font = "cg_16b"
+			font = "hoi_18mbs"
 			maxWidth = 140
 			maxHeight = 25
 			pdx_tooltip = "PRODUCTION_RESOURCE_DESC"
