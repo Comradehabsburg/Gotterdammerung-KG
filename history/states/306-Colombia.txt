@@ -2,8 +2,9 @@ state={
 id=306
 name="STATE_306"
 manpower = 1
-state_category = wasteland
+state_category = metropolis
 history={
+owner = BRA
 }
 provinces={
 	1981

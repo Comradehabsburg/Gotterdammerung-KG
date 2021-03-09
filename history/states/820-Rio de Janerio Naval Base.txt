@@ -7,14 +7,15 @@ state={
 	state_category = large_city
 	
 	history={
-		owner = USA
+		owner = BRA
 		
 		buildings = {
-			infrastructure = 6
-			
-			air_base = 7
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 6
+			air_base = 2
 			4218 = {
-				naval_base = 7
+				naval_base = 10
 			}
 			
 		}
