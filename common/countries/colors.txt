@@ -120,4 +120,7 @@ INS = {
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
+BRA = {
+	color = rgb { 128  158  118 }
+	color_ui = rgb { 128  158  118 }
 }
