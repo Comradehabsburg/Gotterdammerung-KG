@@ -3921,5 +3921,14 @@ leader_traits = {
 			factor = 1
 		}
 	}
+coffee_oligarch = {
+		random = no
 
+		consumer_goods_factor = -0.05
+		production_speed_buildings_factor = 0.1
+		
+		ai_will_do = {
+			factor = 2
+		}
 }
+

@@ -5,7 +5,7 @@ state={
     4267 2175 4208
 	}
 	history={
-		owner = USA
+		owner = BRA
 		buildings = {
 			infrastructure = 4
 			2175 = {
@@ -22,7 +22,7 @@ state={
 	}
 
 	
-	manpower=2000
+	manpower= 20000000
 	buildings_max_level_factor=1.000
 	state_category=town
 }
