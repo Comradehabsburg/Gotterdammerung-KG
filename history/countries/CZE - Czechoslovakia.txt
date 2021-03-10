@@ -84,42 +84,42 @@ create_field_marshal = {
 	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
 	traits = { fast_planner offensive_doctrine }
 	skill = 3
-    attack_skill = 4
-    defense_skill = 2
+    attack_skill = 6
+    defense_skill = 4
     planning_skill = 3
-    logistics_skill = 1
+    logistics_skill = 2
 }
 
 create_field_marshal = {
 	name = "Josef Šnejdárek"
 	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
 	traits = { thorough_planner defensive_doctrine }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 4
+	skill = 4
+    attack_skill = 2
+    defense_skill = 6
     planning_skill = 2
-    logistics_skill = 1
+    logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "Richard Tesařík"
 	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
 	traits = { panzer_leader }
-	skill = 2
-    attack_skill = 4
+	skill = 5
+    attack_skill = 5
     defense_skill = 1
-    planning_skill = 1
-    logistics_skill = 1
+    planning_skill = 3
+    logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "Sergej Vojcechovský"
 	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
 	traits = { motorized_leader winter_specialist }
-	skill = 3
-    attack_skill = 4
-    defense_skill = 3
-    planning_skill = 2
+	skill = 5
+    attack_skill = 5
+    defense_skill = 6
+    planning_skill = 3
     logistics_skill = 1
 }
 
@@ -146,7 +146,7 @@ create_corps_commander = {
 	name = "Bartos"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	traits = {  bearer_of_artillery harsh_leader }
-	skill = 2
+	skill = 4
 	attack_skill = 1
     defense_skill = 2
     planning_skill = 2
