@@ -120,10 +120,16 @@ INS = {
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
+}
 BRA = {
-	color = rgb { 128  158  118 }
-	color_ui = rgb { 128  158  118 }
+	color = rgb { 26  138  22 }
+	color_ui = rgb { 26  138  22 }
+}
 MEX = {
 	color = rgb { 69  209  120 }
 	color_ui = rgb { 69  209  120 }
+}
+IRE = {
+	color = rgb { 235  180  52 }
+	color_ui = rgb { 235  180  52 }
 }
