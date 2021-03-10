@@ -7,12 +7,12 @@ state={
 	history={
 		owner = BRA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 10
 			2175 = {
 				naval_base = 3
 			}
 			4267 = {
-				naval_base = 1
+				naval_base = 20
 			}
 
 		}
