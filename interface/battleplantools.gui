@@ -7,10 +7,10 @@ guiTypes = {
 		size = { width=435 height=60 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
-		animation_time = 0
+		animation_time = 300
 		Orientation = center_down
 		clipping = no
-		fade_time = 1
+		fade_time = 300
 		fade_type = linear
 		#moveable = yes
 		
@@ -46,7 +46,7 @@ guiTypes = {
 			buttonType = {
 				name = "btn_priority"
 				position = {x=5 y=32}
-				buttonFont = "cg_16b"
+				buttonFont = "hoi_16mbs"
 				quadTextureSprite = "GFX_BPT_execute_mid"
 				frame = 2
 				clicksound = click_default
@@ -181,7 +181,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = {x=-22 y=8}
-				font = "cg_18b"
+				font = "hoi_18mbs"
 				text = "BATTLE_PLANS"
 				maxWidth = 346
 				maxHeight = 23
@@ -192,7 +192,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "hint"
 				position = {x=-10 y=8}
-				font = "cg_18b"
+				font = "hoi_18mbs"
 				text = "?"
 				maxWidth = 346
 				maxHeight = 23
@@ -207,7 +207,7 @@ guiTypes = {
 				#animation_time = 300
 				#Orientation = center_down
 				#clipping = yes
-				fade_time = 1
+				fade_time = 300
 				fade_type = linear
 				
 				background = {
@@ -218,7 +218,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "garrison_order_headline"
 					position = {x=14 y=6}
-					font = "cg_18b"
+					font = "hoi_18mbs"
 					text = "GARRISON_ORDER_CONF"
 					maxWidth = 340
 					maxHeight = 23
@@ -281,9 +281,9 @@ guiTypes = {
 				size = { width=148 height=117 }
 				show_animation_type = decelerated
 				hide_animation_type = accelerated
-				animation_time = 0
+				animation_time = 200
 				clipping = no
-				fade_time = 1
+				fade_time = 300
 				fade_type = linear
 					
 					
@@ -296,7 +296,7 @@ guiTypes = {
 				buttonType = {
 					name = "btn_execute_0"
 					position = {x=15 y=30}
-					buttonFont = "cg_16b"
+					buttonFont = "hoi_16mbs"
 					quadTextureSprite = "GFX_BPT_execute_slow"
 					pdx_tooltip = "PLAN_EXECUTE_CAREFUL_TITLE"
 					pdx_tooltip_delayed = "PLAN_EXECUTE_CAREFUL_DESC"
@@ -307,7 +307,7 @@ guiTypes = {
 				buttonType = {
 					name = "btn_execute_1"
 					position = {x=55 y=30}
-					buttonFont = "cg_16b"
+					buttonFont = "hoi_16mbs"
 					quadTextureSprite = "GFX_BPT_execute_mid"
 					pdx_tooltip = "PLAN_EXECUTE_BALANCED_TITLE"
 					pdx_tooltip_delayed = "PLAN_EXECUTE_BALANCED_DESC"
@@ -318,7 +318,7 @@ guiTypes = {
 				buttonType = {
 					name = "btn_execute_2"
 					position = {x=96 y=30}
-					buttonFont = "cg_16b"
+					buttonFont = "hoi_16mbs"
 					quadTextureSprite = "GFX_BPT_execute_fast"
 					pdx_tooltip = "PLAN_EXECUTE_RUSH_TITLE"
 					pdx_tooltip_delayed = "PLAN_EXECUTE_RUSH_DESC"
@@ -329,7 +329,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "title"
 					position = {x=13 y=8}
-					font = "cg_18b"
+					font = "hoi_18mbs"
 					text = "EXECUTION"
 					maxWidth = 346
 					maxHeight = 23

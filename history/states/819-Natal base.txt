@@ -7,12 +7,12 @@ state={
 	history={
 		owner = BRA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 10
 			2175 = {
 				naval_base = 3
 			}
 			4267 = {
-				naval_base = 1
+				naval_base = 20
 			}
 
 		}
@@ -23,6 +23,10 @@ state={
 
 	
 	manpower= 20000000
+	resources={
+		steel=20
+		rubber=100
+	}
 	buildings_max_level_factor=1.000
 	state_category=town
 }

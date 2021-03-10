@@ -18,42 +18,12 @@ set_technology = {
 	artillery_equipment_1
 	gw_pack_artillery = 1
 	interwar_antiair = 1
-	airfield_construction = 1
-	fort_construction = 1
-	basic_light_tank = 1
-	synth_oil_experiments = 1
-	fuel_silos = 1
-	fuel_refining = 1
+
 	axis_motorised_infantry = 1
 	axis_light_tank_1934 = 1 
 	axis_light_tank_1936 = 1
 	ger_fighter_1934 = 1
-    ger_fighter_1936 = 1
-	ger_tactical_bomber_1934 = 1
-	starting_industry = 1
-}
-add_timed_idea = { idea = airandnavy_idea days = 1320 }
-add_ideas = {
-	no_spies_idea
-}
-add_equipment_to_stockpile = {
-         type = infantry_equipment_0
-         amount = 10000
-         producer = CZE
-}
-add_equipment_to_stockpile = {
-         type = artillery_equipment_1
-         amount = 2200
-         producer = CZE
-}
-add_equipment_to_stockpile = {
-	type = anti_air_equipment_1
-    amount = 1000
-    producer = CZE
-}   
-set_research_slots = 4
-set_stability = 0.9
-set_war_support = 0.35
+
 
 set_politics = {
 	ruling_party = democratic
@@ -79,7 +49,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Rickoslav Krejčí"
+
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
 	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "1965.1.1"
@@ -104,73 +74,3 @@ create_field_marshal = {
 	name = "Vojtěch Luža"
 	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
 	traits = { fast_planner offensive_doctrine }
-	skill = 4
-    attack_skill = 7
-    defense_skill = 4
-    planning_skill = 3
-    logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Josef Šnejdárek"
-	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
-	traits = { thorough_planner defensive_doctrine }
-	skill = 4
-    attack_skill = 2
-    defense_skill = 7
-    planning_skill = 2
-    logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Richard Tesařík"
-	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
-	traits = { panzer_leader }
-	skill = 5
-    attack_skill = 8
-    defense_skill = 1
-    planning_skill = 3
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Sergej Vojcechovský"
-	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
-	traits = { motorized_leader winter_specialist }
-	skill = 5
-    attack_skill = 7
-    defense_skill = 6
-    planning_skill = 3
-    logistics_skill = 5
-}
-
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-	}
-}
-
-if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
-	}
-}
-
-create_corps_commander = {
-	name = "Bartos Rick"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = {  bearer_of_artillery harsh_leader }
-	skill = 4
-	attack_skill = 5
-    defense_skill = 5
-    planning_skill = 5
-    logistics_skill = 5
-}
-

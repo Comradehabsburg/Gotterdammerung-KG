@@ -1026,7 +1026,7 @@ country_event = {
 			factor = 100
 		}
 		GER = { country_event = germany.55 }
-		custom_effect_tooltip = GAME_OVER_TT
+		
 	}
 
 }
@@ -1050,7 +1050,12 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
+			GER = { set_autonomy = { target = CZE autonomy_state = autonomy_satellite }
+			HUN = { transfer_state = 664 
+				transfer_state = 73
+				}
 			CZE = {
+				
 				set_technology = { basic_medium_tank = 1 }
 				create_equipment_variant = {
 					name = "LT-38 E"
@@ -1082,16 +1087,20 @@ country_event = {
 			amount = 200
 			producer = GER
 		}
+		HUN = { transfer_state = 664 }
 		ai_chance = { 
 			factor = 10
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
+		GER = {
+				
 		}
 		
 		HUN = { country_event = germany.56 }
 		if = {
+			
 			limit = {
 				72 = {
 					OR = {
@@ -1109,7 +1118,6 @@ country_event = {
 	
 	
 }
-
 country_event = {
 	id = germany.56
 	title = germany.56.t
@@ -1129,44 +1137,30 @@ country_event = {
 		name = germany.56.a
 		ai_chance = { factor = 100 }
 		if = {
-			limit = { NOT = { has_global_flag = mini_GDU } }
-			transfer_state = 70
-			transfer_state = 71
-			transfer_state = 73
-			transfer_state = 664		
+			
 		}
-		if = {
-			limit = { has_global_flag = mini_GDU }
-			GER = {
-				transfer_state = 70
-				transfer_state = 71
-				transfer_state = 73
-				transfer_state = 664
-			}			
-		}		
-		
-		hidden_effect = {
-			GER = {
-				annex_country = { target = CZE }
-				add_to_faction = HUN				
+					
 			}
 			HUN = {
 				add_ai_strategy = {
 					type = alliance
 					id = "GER"
 					value = 200
+					
+			
 				}
 			}
 		}
-		every_state = { 
-			limit = { is_core_of = CZE } 
-			remove_core_of = CZE 
+
 		}
 		hidden_effect = {
 			country_event = { hours = 6 id = news.61 }
 		}
 	}
 }
+
+
+
 
 
 ### Remilitarization of the Rhineland
