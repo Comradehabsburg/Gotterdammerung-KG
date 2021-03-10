@@ -1,0 +1,11 @@
+state={
+id=846
+name="Leinster"
+manpower = 1
+state_category = metropolis
+history={
+}
+provinces={
+		8028 8024 8025 8018 8017 8020 8012 8033
+}
+}

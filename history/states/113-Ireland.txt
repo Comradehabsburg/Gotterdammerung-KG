@@ -2,10 +2,10 @@ state={
 id=113
 name="STATE_113"
 manpower = 1
-state_category = wasteland
+state_category = metropolis
 history={
 }
 provinces={
-		3359
+		3359 8031 8029 8021 8022 8019 8023 8027 8026
 }
 }

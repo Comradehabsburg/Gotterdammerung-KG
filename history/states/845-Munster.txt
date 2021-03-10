@@ -1,0 +1,11 @@
+state={
+id=845
+name="Munster"
+manpower = 1
+state_category = metropolis
+history={
+}
+provinces={
+		8015 8013 8014 8008 8032 8009 8010 8007 8005 8006
+}
+}
