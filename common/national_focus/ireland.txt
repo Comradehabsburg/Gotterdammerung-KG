@@ -164,6 +164,14 @@
 
 		completion_reward = {
 			add_ideas = IRE_british_investors_idea
+			845 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}			
 		}	
 		ai_will_do = {
 		}
@@ -335,13 +343,13 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-		135 = {
+		845 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 1
 				instant_build = yes } 
 				}
-		134 = {
+		113 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 1
@@ -377,8 +385,16 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			134 = { add_extra_state_shared_building_slots = 2 }
-		}	
+			113 = { add_extra_state_shared_building_slots = 2 }
+		}
+		completion_reward = {
+		113 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes } 
+				}
+		}		
 		ai_will_do = {
 		}
 		
@@ -407,16 +423,20 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			134 = {
-				add_extra_state_shared_building_slots = 2
+			113 = {
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 				add_resource = {
 					type = tungsten
 					amount = 10
+				}
+				add_resource = {
+					type = aluminium
+					amount = 20
 				}
 			}
 		}	
@@ -449,8 +469,16 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			135 = { add_extra_state_shared_building_slots = 2 }
-		}	
+			845 = { add_extra_state_shared_building_slots = 2 }
+		}
+		completion_reward = {
+		845 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes } 
+				}
+		}		
 		ai_will_do = {
 		}
 		
@@ -479,18 +507,18 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			135 = {
-				add_extra_state_shared_building_slots = 2
+			845 = {
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 4
 					instant_build = yes
 				}
 			}
 			add_resource = {
 				type = aluminium
-				amount = 12
-				state = 113
+				amount = 16
+				state = 845
 			}
 		}	
 		ai_will_do = {
@@ -521,13 +549,13 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-		134 = {
+		113 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 1
 				instant_build = yes } 
 				}
-		135 = {
+		845 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 1
@@ -562,7 +590,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-		113 = {
+		846 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 2
@@ -595,8 +623,16 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			113 = { add_extra_state_shared_building_slots = 2 }
-		}	
+			846 = { add_extra_state_shared_building_slots = 4 }
+		}
+		completion_reward = {
+		846 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+				instant_build = yes } 
+				}
+		}		
 		ai_will_do = {
 		}
 		
@@ -625,11 +661,11 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			113 = {
-				add_extra_state_shared_building_slots = 2
+			846 = {
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -697,18 +733,18 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			113 = {
-				add_extra_state_shared_building_slots = 2
+			846 = {
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
-					type = industrial_complex
-					level = 2
+					type = arms_factory
+					level = 3
 					instant_build = yes
 				}
 			}
 			add_resource = {
 				type = steel
-				amount = 12
-				state = 113
+				amount = 24
+				state = 846
 			}
 		}	
 		ai_will_do = {
@@ -773,6 +809,14 @@
 
 		completion_reward = {
 		    add_research_slot = 1
+			846 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}			
 			swap_ideas = {
 				remove_idea = IRE_trade_war
 				add_idea = IRE_less_trade_war
@@ -837,7 +881,17 @@
 
 		completion_reward = {
 			add_ideas = IRE_emergency_powers_act
-		}	
+		}
+		completion_reward = {
+			846 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}		
 		ai_will_do = {
 		}
 		
@@ -907,13 +961,13 @@
 				level = 1
 				instant_build = yes } 
 				}
-		134 = {
+		846 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 1
 				instant_build = yes } 
 				}
-		135 = {
+		845 = {
 			add_building_construction = {
 				type = infrastructure
 				level = 1
@@ -949,7 +1003,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			135 = {
+			845 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
