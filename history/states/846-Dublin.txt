@@ -1,0 +1,26 @@
+state={
+id=846
+name="Dublin"
+manpower = 2000000
+state_category = metropolis
+	history={
+		owner = IRE
+		victory_points = {
+			8033 10 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 1
+			dockyard = 2
+			8033 = {
+			naval_base = 4
+			}
+		}
+		add_core_of = IRE
+	}
+provinces={
+		8028 8024 8025 8018 8016 8017 8020 8012 8033
+}
+}
