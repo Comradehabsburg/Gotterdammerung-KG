@@ -52,7 +52,7 @@ if = {
 		basic_torpedo = 1
 		mtg_transport = 1
 	}
-	set_naval_oob = "NZL_1936_naval"	
+	set_naval_oob = "BRA_LightCruisers"	
 }
 set_country_flag = monroe_doctrine
 
