@@ -4,6 +4,10 @@
 oob = "BRA_1936"
 
 # Starting tech
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.2
+# Starting tech
 set_technology = {
 	forgotgwtank = 1
 	forgotearly_fighter = 1
@@ -35,7 +39,54 @@ set_technology = {
 	fleet_in_being = 1
 	tech_field_hospital = 1
 	support_weapons = 1
+	tech_logistics_company = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	desertinfantry_at = 1
+	interwar_antitank = 1	
+	tech_mountaineers = 1	
+	synth_oil_experiments = 1	
+	basic_ship_hull_submarine = 1
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_carrier = 1
+	basic_ship_hull_carrier = 1
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_medium_battery = 1
+	basic_heavy_battery = 1
+	basic_torpedo = 1
+	sonar = 1
+	smoke_generator = 1
+	basic_depth_charges = 1
+	basic_secondary_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_heavy_armor_scheme = 1
+	mtg_transport = 1
+	improved_secondary_battery = 1
+	basic_fire_control_system = 1
+	cruiser_submarines = 1
+}
+add_intel = {
+	target = USA
+	civilian_intel = 200
+	army_intel = 200
+	navy_intel = 200
+	airforce_intel = 200
+}
 
+add_intel = {
+	target = SOV
+	civilian_intel = 200
+	army_intel = 200
+	navy_intel = 200
+	airforce_intel = 200
+}
+add_timed_idea = { idea = airandnavy_idea days = 1320 }
 add_ideas = {
 	BRA_great_depression_1
 	BRA_coffee_oligarchs
@@ -147,20 +198,7 @@ create_country_leader = {
 }
 
 
-set_convoys = 40
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = neutrality
-		last_election = "1934.7.17"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		neutrality = 100
-	}
-}
-
+set_convoys = 80
 create_field_marshal = {
 	name = "George S. Patton"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
@@ -279,12 +317,13 @@ create_corps_commander = {
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 2
-
 	logistics_skill = 2
 }
 
 create_corps_commander = {
-
+	name = "Lloyd Fredendall AFRICANUS"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	traits = { old_guard infantry_officer inflexible_strategist naval_invader desert_fox trait_mountaineer}
 	skill = 4
 
 	attack_skill = 6
@@ -311,7 +350,28 @@ create_corps_commander = {
 	traits = { jungle_rat career_officer commando skilled_staffer politically_connected urban_assault_specialist } 
 	skill = 5
 	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 7
+}
 
+create_corps_commander = {
+	name = "Jonathan Wainwright AFRICANUS"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	traits = { desert_fox career_officer commando skilled_staffer politically_connected urban_assault_specialist } 
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Russell Hartle"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+	traits = { infantry_officer trait_engineer winter_specialist skilled_staffer trait_cautious}
+	skill = 4
+	attack_skill = 3
 	defense_skill = 5
 	planning_skill = 2
 	logistics_skill = 3
@@ -345,64 +405,7 @@ create_corps_commander = {
 	traits = { old_guard harsh_leader commando naval_invader harsh_leader infantry_leader infantry_officer trickster}
 	skill = 4
 	attack_skill = 6
-
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "J. Lawton Collins"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-	traits = {  trickster career_officer skilled_staffer commando infantry_leader organizer}
-	skill = 4
-	attack_skill = 4
-	defense_skill = 6
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Courtney Hodges"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-	traits = {  panzer_leader career_officer infantry_officer war_hero winter_specialist trait_cautious panzer_leader}
-	skill = 4
-	attack_skill = 2
-	defense_skill = 6
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Joseph Stilwell"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-	traits = { politically_connected infantry_officer career_officer harsh_leader jungle_rat hill_fighter infantry_leader}
-	skill = 4
-	id = 601
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Oscar Griswold"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-	traits = { infantry_officer jungle_rat naval_invader career_officer trait_mountaineer infantry_leader}
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Maurice Rose"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-	traits = { armor_officer trait_reckless brilliant_strategist harsh_leader panzer_leader   }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
 }
@@ -569,26 +572,6 @@ if = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_2
 			rear_1_custom_slot = ship_mine_layer_sub
-		}
-	}
-}
-
-# 1939 Start #
-1939.1.1 = {
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		create_equipment_variant = {
-			name = "Tupi Class"
-			type = ship_hull_submarine_2
-			name_group = BRA_SS_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_torpedo_slot = ship_torpedo_sub_1
-				fixed_ship_engine_slot = sub_ship_engine_1
-				rear_1_custom_slot = empty
-			}
 		}
 	}
 }
