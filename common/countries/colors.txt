@@ -123,4 +123,7 @@ D01 = {
 BRA = {
 	color = rgb { 128  158  118 }
 	color_ui = rgb { 128  158  118 }
+MEX = {
+	color = rgb { 69  209  120 }
+	color_ui = rgb { 69  209  120 }
 }
