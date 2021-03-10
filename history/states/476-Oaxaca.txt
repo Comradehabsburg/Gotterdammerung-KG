@@ -2,13 +2,14 @@ state={
 id=476
 name="STATE_476"
 manpower = 7500000
-state_category = town
+state_category = metropolis
 history={
 owner = MEX
 		
 		buildings = {
 			infrastructure = 6
-			arms_factory = 5
+			arms_factory = 4
+			industrial_complex = 8
 		}
 		add_core_of = MEX
 }
