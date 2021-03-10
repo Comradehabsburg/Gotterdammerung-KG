@@ -297,7 +297,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = MEX_nationalise_oile_industry
+		id = MEX_nationalise_oil_industry
 		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = MEX_end_oil_with_war }
 		x = 0
@@ -341,7 +341,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = MEX_MEXzilian_modernisation
+		id = MEX_Mexzilian_modernisation
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = MEX_begin_industrial_centralisation }
 		x = -1
@@ -363,10 +363,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 5
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 5
 					instant_build = yes
 				}
 			}
@@ -376,10 +376,10 @@ focus_tree = {
 	focus = {
 		id = MEX_private_sector_expansion
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = MEX_mexican_modernisation }
+		prerequisite = { focus = MEX_Mexzilian_modernisation }
 		x = 0
 		y = 1
-		relative_position_id = MEX_mexican_modernisation
+		relative_position_id = MEX_Mexzilian_modernisation
 
 		cost = 10
 
@@ -405,14 +405,13 @@ focus_tree = {
 			}
 		}
 	}
-	
-	focus = {
+		focus = {
 		id = MEX_agrarian_reform
-		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = mex_private_sector_expansion }
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = MEX_private_sector_expansion }
 		x = 0
 		y = 1
-		relative_position_id = mex_private_sector_expansion
+		relative_position_id = MEX_private_sector_expansion
 
 		cost = 10
 
@@ -438,7 +437,6 @@ focus_tree = {
 			}
 		}
 	}
-	
 	focus = {
 		id = MEX_invite_us_investors
 		icon = GFX_focus_mex_privatisation
@@ -603,9 +601,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = MEX_infrastructure_revitalisation
+		id = MEX_infrastructure_revitalisation_2
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = MEX_begin_industrial_centralisation }
+		prerequisite = { focus = MEX_infrastructure_revitalisation }
 		x = 0
 		y = 1
 		relative_position_id = MEX_infrastructure_revitalisation
