@@ -1,8 +1,8 @@
 ﻿capital = 500
 
 
-oob = "BRA_1936"
-
+oob = "MEX_1936"
+set_research_slots = 3
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -17,9 +17,9 @@ set_technology = {
 }
 
 add_ideas = {
-	BRA_great_depression_1
-	BRA_coffee_oligarchs
-	BRA_revolution_of_1930
+	MEX_great_depression_1
+	MEX_oil_oligarchs
+	MEX_revolution_of_1930
 	neutrality_idea2
 }
 
@@ -35,7 +35,7 @@ if = {
 		early_battleship = 1
 		transport = 1
 	}
-	set_naval_oob = "BRA_1936_naval_legacy"
+	set_naval_oob = "MEX_1936_naval_legacy"
 }
 if = {
 	limit = { has_dlc = "Man the Guns"}
@@ -52,7 +52,7 @@ if = {
 		basic_torpedo = 1
 		mtg_transport = 1
 	}
-	set_naval_oob = "BRA_1936_naval"	
+	set_naval_oob = "MEX_lightcruisers"	
 }
 set_country_flag = monroe_doctrine
 
@@ -69,9 +69,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Getúlio Vargas"
+	name = "Pickle "Rick" Sanchez"
 	desc = "POLITICS_GETULIO_VARGAS_DESC"
-	picture = "Portrait_Brazil_Getulio_Vargas.dds"
+	picture = "Portrait_MEXzil_Getulio_Vargas.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -80,9 +80,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Plínio Salgado"
+	name = "Pickle "Rick" Sanchez"
 	desc = "POLITICS_PLINIO_SALGADO_DESC"
-	picture = "Portrait_Brazil_Plinio_Salgado.dds"
+	picture = "Portrait_MEXzil_Plinio_Salgado.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -90,7 +90,7 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "Luís Carlos Prestes"
+	name = "Pickle Rick Sanchez"
 	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
@@ -101,7 +101,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Júlio Prestes"
+	name = "Pickle Rick Sanchez"
 	desc = "POLITICS_ARMANDO_SALES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 	expire = "1965.1.1"
@@ -126,8 +126,376 @@ set_convoys = 40
 	}
 }
 
+create_field_marshal = {
+	name = "José S. Patton"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	traits = {  trickster armor_officer panzer_leader war_hero trait_reckless panzer_leader hill_fighter }
+	skill = 5
+	id = 603
+	attack_skill = 9
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
 create_corps_commander = {
-	name = "Eurico Gaspar Dutra"
+	name = "José S. Patton AFRICANUS"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+	traits = { trickster armor_officer panzer_leader war_hero trait_reckless panzer_leader hill_fighter desert_fox trait_mountaineer expert_improviser panzer_expert }
+	skill = 5
+
+	attack_skill = 9
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Juan Esteban Berrocal"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader infantry_officer infantry_leader}
+	skill = 5
+	id = 604
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Raul Barrueco"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+	traits = { organizer offensive_doctrine trait_cautious armor_officer skilled_staffer politically_connected media_personality career_officer brilliant_strategist}
+	skill = 6
+	id = 602
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 7
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Francisco Xirau"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	traits = { armor_officer career_officer panzer_leader harsh_leader trait_mountaineer hill_fighter}
+	skill = 3
+
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Josué Costa"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_7.dds"
+	traits = { trait_engineer commando cavalry_officer ranger infantry_leader}
+	skill = 5
+
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Santino Aparicio"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_6.dds"
+	traits = { infantry_officer trait_reckless career_officer infantry_leader }
+	skill = 5
+
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Juan José Ros"
+	id = 57
+	picture = "Portrait_USA_Douglas_MacArthur.dds"
+	traits = {  offensive_doctrine brilliant_strategist career_officer media_personality jungle_rat naval_invader politically_connected }
+	skill = 6
+
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Juan Martín Molina"
+	picture = "Portrait_USA_Walter_Krueger.dds"
+	traits = { armor_officer career_officer brilliant_strategist naval_invader panzer_leader jungle_rat trickster}
+	skill = 4
+
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Julián Puig"
+	picture = "Portrait_USA_Lloyd_Fredendall.dds"
+	traits = { old_guard infantry_officer inflexible_strategist naval_invader }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Julián Puig AFRICANUS"
+	picture = "AFRICA_Portrait_USA_Lloyd_Fredendall.dds"
+	traits = { old_guard infantry_officer inflexible_strategist naval_invader desert_fox trait_mountaineer}
+	skill = 4
+
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Leslie McNair"
+	picture = "Portrait_USA_Lesley_McNair.dds"
+	traits = {  old_guard career_officer armor_officer panzer_leader ranger trait_reckless}
+	skill = 5
+
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Diego Alejandro Abellán"
+	picture = "Portrait_USA_Jonathan_Wainwright.dds"
+	traits = { jungle_rat career_officer commando skilled_staffer politically_connected urban_assault_specialist } 
+	skill = 5
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Diego Alejandro Abellán AFRICANUS"
+	picture = "AFRICA_Portrait_USA_Jonathan_Wainwright.dds"
+	traits = { desert_fox career_officer commando skilled_staffer politically_connected urban_assault_specialist } 
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 7
+}
+
+create_corps_commander = {
+	name = "Doot"
+	picture = "Portrait_USA_Russell_P_Hartle.dds"
+	traits = { infantry_officer trait_engineer winter_specialist skilled_staffer trait_cautious}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Mauricio Coronil"
+	picture = "Portrait_USA_Leonard_T_Gerow.dds"
+	traits = { infantry_officer career_officer war_hero organizer skilled_staffer infantry_leader}
+	skill = 5
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 6
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Édgar París"
+	picture = "Portrait_USA_Edward_Brooks.dds"
+	traits = { armor_officer trait_reckless war_hero harsh_leader panzer_leader cavalry_leader trait_engineer skilled_staffer}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 1
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Mauricio Ferrant"
+	picture = "Portrait_USA_Clarence_Huebner.dds"
+	traits = { old_guard harsh_leader commando naval_invader harsh_leader infantry_leader infantry_officer trickster}
+	skill = 4
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Isidoro Cambeiro"
+	picture = "Portrait_USA_Alexander_Patch.dds"
+	traits = {  commando infantry_officer infantry_leader jungle_rat naval_invader politically_connected career_officer }
+	skill = 5
+
+	attack_skill = 6
+	defense_skill = 5
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Isidoro Cambeiro AFRICANUS"
+	picture = "AFRICA_Portrait_USA_Alexander_Patch.dds"
+	traits = {  commando infantry_officer infantry_leader desert_fox naval_invader politically_connected career_officer }
+	skill = 5
+
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 1
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Anthony Palau"
+	picture = "Portrait_USA_William_Hood_Simpson.dds"
+	traits = { infantry_officer career_officer trait_engineer harsh_leader hill_fighter fortress_buster}
+	skill = 4
+	
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Efraim San Martín"
+	picture = "Portrait_USA_Lawton_Collins.dds"
+	traits = {  trickster career_officer skilled_staffer commando infantry_leader organizer}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Jeremías Sarmiento"
+	picture = "Portrait_USA_Cortney_Hodges.dds"
+	traits = {  panzer_leader career_officer infantry_officer war_hero winter_specialist trait_cautious panzer_leader}
+	skill = 4
+	attack_skill = 2
+	defense_skill = 6
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Perla Barrios"
+	picture = "Portrait_USA_Joseph_Stilwell.dds"
+	traits = { politically_connected infantry_officer career_officer harsh_leader jungle_rat hill_fighter infantry_leader}
+	skill = 4
+	id = 601
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Gloria Rodríguez"
+	picture = "Portrait_USA_Oscar_Griswold.dds"
+	traits = { infantry_officer jungle_rat naval_invader career_officer trait_mountaineer infantry_leader}
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Valeria de la Cavallería"
+	picture = "Portrait_USA_Maurice_Rose.dds"
+	traits = { armor_officer trait_reckless brilliant_strategist harsh_leader panzer_leader   }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Axel Murillo"
+		picture = "Portrait_USA_Earnest_King.dds"
+	traits = { caustic_personality chief_engineer blockade_runner superior_tactician ironside blue_water_expert }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 6
+}
+
+create_navy_leader = {
+	name = "Cristóbal W. Nimitz"
+		picture = "Portrait_USA_Chester_W_Nimitz.dds"
+	traits = { navy_career_officer aviation_enthusiast superior_tactician spotter air_controller blue_water_expert }
+	skill = 8
+	attack_skill = 5
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 7
+}
+
+create_navy_leader = {
+	name = "Ángel Carballar"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_5.dds"
+	traits = { bold superior_tactician spotter air_controller flight_deck_manager inshore_fighter }
+	skill = 7
+	attack_skill = 7
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 5
+}
+
+create_navy_leader = {
+	name = "Óscar Xirau"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_4.dds"
+	traits = { aviation_enthusiast fly_swatter spotter superior_tactician air_controller }
+	skill = 7
+	attack_skill = 5
+	defense_skill = 5
+	maneuvering_skill = 5
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Joaquín Villacrés"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+	traits = { gentlemanly superior_tactician fly_swatter air_controller blue_water_expert }
+	skill = 7
+	attack_skill = 6
+	defense_skill = 6
+	maneuvering_skill = 5
+	coordination_skill = 5
+}
+
+create_navy_leader = {
+	name = "Harold Rainsford Stark"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+	traits = { cuts_corners seawolf fleet_protector spotter blockade_runner blue_water_expert }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 5
+	coordination_skill = 4
+}
+create_corps_commander = {
+	name = "Bad General"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 	traits = { ranger  }
 	skill = 4
@@ -138,7 +506,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mascarenhas de Morais"
+	name = "Noto that great"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	traits = {  jungle_rat }
 	skill = 4
@@ -149,7 +517,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Augusto Rademaker"
+	name = "Augusto Rickler"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
 	traits = {  }
 	skill = 3
@@ -162,7 +530,7 @@ if = {
 	create_equipment_variant = {
 		name = "Minas Geras Class"
 		type = ship_hull_heavy_0
-		name_group = BRA_BB_HISTORICAL
+		name_group = MEX_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_quad_1
@@ -179,9 +547,9 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Bahia Class"
+		name = "Mexico Class"
 		type = ship_hull_cruiser_1
-		name_group = BRA_CL_HISTORICAL
+		name_group = MEX_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -196,7 +564,7 @@ if = {
 	create_equipment_variant = {
 		name = "Para Class"
 		type = ship_hull_light_1
-		name_group = BRA_DD_HISTORICAL
+		name_group = MEX_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -212,7 +580,7 @@ if = {
 	create_equipment_variant = {
 		name = "Humaytá Class"
 		type = ship_hull_submarine_2
-		name_group = BRA_SS_HISTORICAL
+		name_group = MEX_SS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -231,7 +599,7 @@ if = {
 		create_equipment_variant = {
 			name = "Tupi Class"
 			type = ship_hull_submarine_2
-			name_group = BRA_SS_HISTORICAL
+			name_group = MEX_SS_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_torpedo_slot = ship_torpedo_sub_1

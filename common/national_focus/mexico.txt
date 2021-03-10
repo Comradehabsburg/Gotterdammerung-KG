@@ -16,9 +16,9 @@ focus_tree = {
 	continuous_focus_position = { x = 0 y = 1300 }
 	
 	focus = {
-		id = BRA_stay_with_vargas
+		id = MEX_stay_with_rick
 		icon = GFX_focus_generic_self_management
-		mutually_exclusive = { focus = BRA_adopt_federalism }
+		mutually_exclusive = { focus = MEX_adopt_federalism }
 		x = 3
 		y = 0
 
@@ -38,9 +38,9 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_adopt_federalism
+		id = MEX_adopt_federalism
 		icon = GFX_goal_support_democracy
-		mutually_exclusive = { focus = BRA_stay_with_vargas }
+		mutually_exclusive = { focus = MEX_stay_with_rick }
 		x = 5
 		y = 0
 
@@ -63,12 +63,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_declare_third_republic
+		id = MEX_declare_third_republic
 		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = BRA_adopt_federalism focus = BRA_stay_with_vargas }
+		prerequisite = { focus = MEX_adopt_federalism focus = MEX_stay_with_rick }
 		x = -1
 		y = 1
-		relative_position_id = BRA_adopt_federalism
+		relative_position_id = MEX_adopt_federalism
 
 		cost = 10
 
@@ -78,17 +78,17 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 200
-			set_cosmetic_tag = BRA_third_republic
+			set_cosmetic_tag = MEX_third_republic
 		}
 	}
 	
 	focus = {
-		id = BRA_new_constitution
+		id = MEX_new_constitution
 		icon = GFX_focus_hol_the_foundations_of_defense
-		prerequisite = { focus = BRA_declare_third_republic }
+		prerequisite = { focus = MEX_declare_third_republic }
 		x = 0
 		y = 1
-		relative_position_id = BRA_declare_third_republic
+		relative_position_id = MEX_declare_third_republic
 
 		cost = 10
 
@@ -97,17 +97,17 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			remove_ideas = BRA_revolution_of_1930
+			remove_ideas = MEX_revolution_of_1930
 		}
 	}
 	
 	focus = {
-		id = BRA_great_depression_recovery
+		id = MEX_great_depression_recovery
 		icon = GFX_focus_generic_concessions
-		prerequisite = { focus = BRA_new_constitution }
+		prerequisite = { focus = MEX_new_constitution }
 		x = -3
 		y = 1
-		relative_position_id = BRA_new_constitution
+		relative_position_id = MEX_new_constitution
 		
 		available = {
 			threat > 0.1
@@ -123,19 +123,19 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = BRA_great_depression_1
-				add_idea = BRA_great_depression_2
+				remove_idea = MEX_great_depression_1
+				add_idea = MEX_great_depression_2
 			}
 		}
 	}
 	
 	focus = {
-		id = BRA_full_econonmic_recovery
+		id = MEX_full_econonmic_recovery
 		icon = GFX_focus_generic_the_giant_wakes
-		prerequisite = { focus = BRA_great_depression_recovery }
+		prerequisite = { focus = MEX_great_depression_recovery }
 		x = 0
 		y = 1
-		relative_position_id = BRA_great_depression_recovery
+		relative_position_id = MEX_great_depression_recovery
 	
 		available = {
 			threat > 0.25
@@ -150,17 +150,17 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			remove_ideas = BRA_great_depression_2
+			remove_ideas = MEX_great_depression_2
 		}
 	}
 	
 	focus = {
-		id = BRA_align_with_america
+		id = MEX_align_with_america
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = BRA_new_constitution }
+		prerequisite = { focus = MEX_new_constitution }
 		x = -1
 		y = 1
-		relative_position_id = BRA_new_constitution
+		relative_position_id = MEX_new_constitution
 
 		cost = 10
 		
@@ -181,12 +181,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_deterrence
+		id = MEX_deterrence
 		icon = GFX_goal_generic_defence
-		prerequisite = { focus = BRA_align_with_america }
+		prerequisite = { focus = MEX_align_with_america }
 		x = 0
 		y = 1
-		relative_position_id = BRA_align_with_america
+		relative_position_id = MEX_align_with_america
 
 		cost = 10
 
@@ -200,12 +200,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BRA_join_the_allies
+		id = MEX_join_the_allies
 		icon = GFX_focus_hol_the_fourth_ally
-		prerequisite = { focus = BRA_deterrence }
+		prerequisite = { focus = MEX_deterrence }
 		x = 0
 		y = 1
-		relative_position_id = BRA_deterrence
+		relative_position_id = MEX_deterrence
 
 		cost = 5
 		
@@ -233,13 +233,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_appease_the_coffee_oligarchs
+		id = MEX_appease_the_oil_oligarchs
 		icon = GFX_focus_CZE_german_puppet
-		prerequisite = { focus = BRA_new_constitution }
-		mutually_exclusive = { focus = BRA_curtail_the_coffe_oligarchs }
+		prerequisite = { focus = MEX_new_constitution }
+		mutually_exclusive = { focus = MEX_curtail_the_oil_oligarchs }
 		x = 1
 		y = 1
-		relative_position_id = BRA_new_constitution
+		relative_position_id = MEX_new_constitution
 
 		cost = 10
 
@@ -249,18 +249,18 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = BRA_estavao_alves_correa
+			show_ideas_tooltip = MEX_estavao_alves_correa
 		}
 	}
 	
 	focus = {
-		id = BRA_curtail_the_coffe_oligarchs
+		id = MEX_curtail_the_oil_oligarchs
 		icon = GFX_focus_por_recover_latin_america
-		prerequisite = { focus = BRA_new_constitution }
-		mutually_exclusive = { focus = BRA_appease_the_coffee_oligarchs }
+		prerequisite = { focus = MEX_new_constitution }
+		mutually_exclusive = { focus = MEX_appease_the_oil_oligarchs }
 		x = 3
 		y = 1
-		relative_position_id = BRA_new_constitution
+		relative_position_id = MEX_new_constitution
 
 		cost = 10
 
@@ -270,19 +270,19 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = BRA_coffee_oligarchs
-				add_idea = BRA_coffee_oligarchs_2
+				remove_idea = MEX_oil_oligarchs
+				add_idea = MEX_oil_oligarchs_2
 			}
 		}
 	}
 	
 	focus = {
-		id = BRA_end_coffee_with_milk
+		id = MEX_end_oil_with_war
 		icon = GFX_goal_generic_trade
-		prerequisite = { focus = BRA_curtail_the_coffe_oligarchs }
+		prerequisite = { focus = MEX_curtail_the_oil_oligarchs }
 		x = 0
 		y = 1
-		relative_position_id = BRA_curtail_the_coffe_oligarchs
+		relative_position_id = MEX_curtail_the_oil_oligarchs
 
 		cost = 10
 
@@ -297,12 +297,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_nationalise_coffee_industry
+		id = MEX_nationalise_oile_industry
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = BRA_end_coffee_with_milk }
+		prerequisite = { focus = MEX_end_oil_with_war }
 		x = 0
 		y = 1
-		relative_position_id = BRA_end_coffee_with_milk
+		relative_position_id = MEX_end_oil_with_war
 
 		cost = 10
 
@@ -312,14 +312,14 @@ focus_tree = {
 
 		completion_reward = {
 			swap_ideas = {
-				remove_idea = BRA_coffee_oligarchs_2
-				add_idea = BRA_coffee_oligarchs_3
+				remove_idea = MEX_oil_oligarchs_2
+				add_idea = MEX_oil_oligarchs_3
 			}
 		}
 	}
 	
 	focus = {
-		id = BRA_begin_industrial_centralisation
+		id = MEX_begin_industrial_centralisation
 		icon = GFX_goal_generic_construction
 		x = 12
 		y = 0
@@ -341,12 +341,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_brazilian_modernisation
+		id = MEX_MEXzilian_modernisation
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = BRA_begin_industrial_centralisation }
+		prerequisite = { focus = MEX_begin_industrial_centralisation }
 		x = -1
 		y = 1
-		relative_position_id = BRA_begin_industrial_centralisation
+		relative_position_id = MEX_begin_industrial_centralisation
 
 		cost = 10
 
@@ -374,12 +374,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_private_sector_expansion
+		id = MEX_private_sector_expansion
 		icon = GFX_goal_generic_consumer_goods
-		prerequisite = { focus = BRA_brazilian_modernisation }
+		prerequisite = { focus = MEX_mexican_modernisation }
 		x = 0
 		y = 1
-		relative_position_id = BRA_brazilian_modernisation
+		relative_position_id = MEX_mexican_modernisation
 
 		cost = 10
 
@@ -407,12 +407,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_agrarian_reform
+		id = MEX_agrarian_reform
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = BRA_private_sector_expansion }
+		prerequisite = { focus = mex_private_sector_expansion }
 		x = 0
 		y = 1
-		relative_position_id = BRA_private_sector_expansion
+		relative_position_id = mex_private_sector_expansion
 
 		cost = 10
 
@@ -440,12 +440,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_invite_us_investors
+		id = MEX_invite_us_investors
 		icon = GFX_focus_mex_privatisation
-		prerequisite = { focus = BRA_agrarian_reform }
+		prerequisite = { focus = mex_agrarian_reform }
 		x = -1
 		y = 1
-		relative_position_id = BRA_agrarian_reform
+		relative_position_id = mex_agrarian_reform
 
 		cost = 10
 		
@@ -479,12 +479,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_american_auto_investments
+		id = MEX_american_auto_investments
 		icon = GFX_ITA_italian_highways
-		prerequisite = { focus = BRA_invite_us_investors }
+		prerequisite = { focus = MEX_invite_us_investors }
 		x = 0
 		y = 1
-		relative_position_id = BRA_invite_us_investors
+		relative_position_id = MEX_invite_us_investors
 
 		cost = 10
 		
@@ -517,12 +517,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_american_defence_investments
+		id = MEX_american_defence_investments
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = BRA_american_auto_investments }
+		prerequisite = { focus = MEX_american_auto_investments }
 		x = 0
 		y = 1
-		relative_position_id = BRA_american_auto_investments
+		relative_position_id = MEX_american_auto_investments
 
 		cost = 10
 		
@@ -554,12 +554,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_american_experts
+		id = MEX_american_experts
 		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = BRA_american_defence_investments }
+		prerequisite = { focus = MEX_american_defence_investments }
 		x = 0
 		y = 1
-		relative_position_id = BRA_american_defence_investments
+		relative_position_id = MEX_american_defence_investments
 
 		cost = 10
 		
@@ -578,12 +578,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_infrastructure_revitalisation
+		id = MEX_infrastructure_revitalisation
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = BRA_begin_industrial_centralisation }
+		prerequisite = { focus = MEX_begin_industrial_centralisation }
 		x = 1
 		y = 1
-		relative_position_id = BRA_begin_industrial_centralisation
+		relative_position_id = MEX_begin_industrial_centralisation
 
 		cost = 10
 
@@ -603,12 +603,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_amazonian_infrastructure
+		id = MEX_infrastructure_revitalisation
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = BRA_infrastructure_revitalisation }
+		prerequisite = { focus = MEX_begin_industrial_centralisation }
 		x = 0
 		y = 1
-		relative_position_id = BRA_infrastructure_revitalisation
+		relative_position_id = MEX_infrastructure_revitalisation
 
 		cost = 10
 
@@ -616,39 +616,11 @@ focus_tree = {
 			factor = 8
 		}
 
-		completion_reward = {
-			495 = {
+			completion_reward = {
+			every_owned_state = {
 				add_building_construction = {
 					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			280 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			497 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			505 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-			504 = {
-				add_building_construction = {
-					type = infrastructure
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -656,12 +628,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_amazonian_rubber
+		id = MEX_prospecting
 		icon = GFX_focus_generic_rubber
-		prerequisite = { focus = BRA_amazonian_infrastructure }
+		prerequisite = { focus = MEX_infrastructure_revitalisation_2 }
 		x = 0
 		y = 1
-		relative_position_id = BRA_amazonian_infrastructure
+		relative_position_id = MEX_infrastructure_revitalisation_2
 
 		cost = 10
 
@@ -670,21 +642,30 @@ focus_tree = {
 		}
 
 		completion_reward = {
+		every_owned_state = {
 			add_resource = {
-				type = rubber
-				amount = 240
-				state = 280
+				type = oil
+				amount = 20
 			}
+			add_resource = {
+				type = steel
+				amount = 15
+			}
+			add_resource = {
+				type = aluminium
+				amount = 5
+			}
+		}
 		}
 	}
 	
 	focus = {
-		id = BRA_brazilian_arms_investments
+		id = MEX_mexican_arms_investments
 		icon = GFX_focus_generic_industry_3
-		prerequisite = { focus = BRA_amazonian_rubber focus = BRA_agrarian_reform }
+		prerequisite = { focus = MEX_prospecting focus = MEX_agrarian_reform }
 		x = -1
 		y = 1
-		relative_position_id = BRA_amazonian_rubber
+		relative_position_id = MEX_prospecting
 
 		cost = 10
 
@@ -712,12 +693,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_national_defence_state
+		id = MEX_national_defence_state
 		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = BRA_brazilian_arms_investments }
+		prerequisite = { focus = MEX_mexican_arms_investments }
 		x = 0
 		y = 1
-		relative_position_id = BRA_brazilian_arms_investments
+		relative_position_id = MEX_mexican_arms_investments
 
 		cost = 10
 
@@ -745,12 +726,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_industrial_innovations
+		id = MEX_industrial_innovations
 		icon = GFX_focus_research
-		prerequisite = { focus = BRA_national_defence_state }
+		prerequisite = { focus = MEX_national_defence_state }
 		x = 0
 		y = 1
-		relative_position_id = BRA_national_defence_state
+		relative_position_id = MEX_national_defence_state
 
 		cost = 10
 
@@ -764,7 +745,7 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_armed_forces
+		id = MEX_armed_forces
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 17
 		y = 0
@@ -781,12 +762,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_military_modernisation
+		id = MEX_military_modernisation
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = BRA_armed_forces }
+		prerequisite = { focus = MEX_armed_forces }
 		x = 0
 		y = 1
-		relative_position_id = BRA_armed_forces
+		relative_position_id = MEX_armed_forces
 
 		cost = 5
 
@@ -805,12 +786,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_new_rifles
+		id = MEX_new_rifles
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = BRA_military_modernisation }
+		prerequisite = { focus = MEX_military_modernisation }
 		x = -1
 		y = 1
-		relative_position_id = BRA_military_modernisation
+		relative_position_id = MEX_military_modernisation
 
 		cost = 5
 
@@ -830,12 +811,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_artillery_experiments
+		id = MEX_artillery_experiments
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = BRA_new_rifles }
+		prerequisite = { focus = MEX_new_rifles }
 		x = 0
 		y = 1
-		relative_position_id = BRA_new_rifles
+		relative_position_id = MEX_new_rifles
 
 		cost = 5
 
@@ -855,12 +836,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_motorisation_effort
+		id = MEX_motorisation_effort
 		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = BRA_military_modernisation }
+		prerequisite = { focus = MEX_military_modernisation }
 		x = 1
 		y = 1
-		relative_position_id = BRA_military_modernisation
+		relative_position_id = MEX_military_modernisation
 
 		cost = 5
 
@@ -880,12 +861,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_support_companies
+		id = MEX_support_companies
 		icon = GFX_focus_generic_combined_arms
-		prerequisite = { focus = BRA_motorisation_effort }
+		prerequisite = { focus = MEX_motorisation_effort }
 		x = 0
 		y = 1
-		relative_position_id = BRA_motorisation_effort
+		relative_position_id = MEX_motorisation_effort
 
 		cost = 5
 
@@ -905,13 +886,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BRA_brazilian_expeditionary_force
+		id = MEX_mexican_expeditionary_force
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = BRA_support_companies }
-		prerequisite = { focus = BRA_artillery_experiments }
+		prerequisite = { focus = MEX_support_companies }
+		prerequisite = { focus = MEX_artillery_experiments }
 		x = -1
 		y = 1
-		relative_position_id = BRA_support_companies
+		relative_position_id = MEX_support_companies
 
 		cost = 5
 		
@@ -926,17 +907,17 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = BRA_mark_clark
+			show_ideas_tooltip = MEX_mark_clark
 		}
 	}
 	
 	focus = {
-		id = BRA_american_advisors
+		id = MEX_american_advisors
 		icon = GFX_focus_generic_military_mission
-		prerequisite = { focus = BRA_brazilian_expeditionary_force }
+		prerequisite = { focus = MEX_mexican_expeditionary_force }
 		x = 0
 		y = 1
-		relative_position_id = BRA_brazilian_expeditionary_force
+		relative_position_id = MEX_mexican_expeditionary_force
 
 		cost = 5
 
@@ -952,18 +933,18 @@ focus_tree = {
 				uses = 2
 				category = land_doctrine
 			}
-			add_ideas = BRA_usa_license
+			add_ideas = MEX_usa_license
 		}
 	}
 	
 	focus = {
-		id = BRA_pracinhas
+		id = MEX_pracinhas
 		icon = GFX_focus_prc_infiltration
-		prerequisite = { focus = BRA_american_advisors }
-		mutually_exclusive = { focus = BRA_bandeirantes }
+		prerequisite = { focus = MEX_american_advisors }
+		mutually_exclusive = { focus = MEX_bandeirantes }
 		x = 1
 		y = 1
-		relative_position_id = BRA_american_advisors
+		relative_position_id = MEX_american_advisors
 
 		cost = 5
 
@@ -972,18 +953,18 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = BRA_pracinhas
+			add_ideas = MEX_pracinhas
 		}
 	}
 	
 	focus = {
-		id = BRA_bandeirantes
+		id = MEX_bandeirantes
 		icon = GFX_focus_generic_manpower
-		prerequisite = { focus = BRA_american_advisors }
-		mutually_exclusive = { focus = BRA_pracinhas }
+		prerequisite = { focus = MEX_american_advisors }
+		mutually_exclusive = { focus = MEX_pracinhas }
 		x = -1
 		y = 1
-		relative_position_id = BRA_american_advisors
+		relative_position_id = MEX_american_advisors
 
 		cost = 5
 
@@ -992,7 +973,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = BRA_bandeirantes_idea
+			add_ideas = MEX_bandeirantes_idea
 			custom_effect_tooltip = RAJ_jungle_training_effect
 			hidden_effect = { set_technology = { jungle_warfare = 1 } }
 		}
