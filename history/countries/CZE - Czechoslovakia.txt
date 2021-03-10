@@ -18,21 +18,12 @@ set_technology = {
 	artillery_equipment_1
 	gw_pack_artillery = 1
 	interwar_antiair = 1
-	basic_light_tank = 1
+
 	axis_motorised_infantry = 1
 	axis_light_tank_1934 = 1 
 	axis_light_tank_1936 = 1
 	ger_fighter_1934 = 1
-    	ger_fighter_1936 = 1
-	ger_tactical_bomber_1934 = 1
-	starting_industry = 1
-}
-add_ideas = {
-	no_spies_idea
-}
-set_research_slots = 4
-set_stability = 0.5
-set_war_support = 0.05
+
 
 set_politics = {
 	ruling_party = democratic
@@ -58,7 +49,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jaroslav Krejčí"
+
 	desc = "POLITICS_JAROSLAV_KREJCI_DESC"
 	picture = "Portrait_Czech_Jaroslav_Krejci.dds"
 	expire = "1965.1.1"
@@ -83,73 +74,3 @@ create_field_marshal = {
 	name = "Vojtěch Luža"
 	gfx = "GFX_Portrait_czechoslovakia_vojtech_luza"
 	traits = { fast_planner offensive_doctrine }
-	skill = 3
-    attack_skill = 6
-    defense_skill = 4
-    planning_skill = 3
-    logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Josef Šnejdárek"
-	gfx = "GFX_Portrait_czechoslovakia_josef_snejdarek"
-	traits = { thorough_planner defensive_doctrine }
-	skill = 4
-    attack_skill = 2
-    defense_skill = 6
-    planning_skill = 2
-    logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Richard Tesařík"
-	gfx = "GFX_Portrait_czechoslovakia_richard_tesarik"
-	traits = { panzer_leader }
-	skill = 5
-    attack_skill = 5
-    defense_skill = 1
-    planning_skill = 3
-    logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Sergej Vojcechovský"
-	gfx = "GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
-	traits = { motorized_leader winter_specialist }
-	skill = 5
-    attack_skill = 5
-    defense_skill = 6
-    planning_skill = 3
-    logistics_skill = 1
-}
-
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		CZE_skoda_works
-		CZE_divided_nation
-	}
-}
-
-if = {
-	limit = {
-		NOT = { has_dlc = "Death or Dishonor" }
-	}
-	add_ideas = {
-		CZE_fortification_focus
-	}
-}
-
-create_corps_commander = {
-	name = "Bartos"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = {  bearer_of_artillery harsh_leader }
-	skill = 4
-	attack_skill = 1
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 1
-}
-
