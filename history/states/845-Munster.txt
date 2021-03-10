@@ -1,11 +1,22 @@
 state={
 id=845
 name="Munster"
-manpower = 1
+manpower = 1200000
 state_category = metropolis
-history={
-}
+	history={
+		owner = IRE
+		victory_points = {
+			8006 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = IRE
+	}
 provinces={
-		8015 8013 8014 8008 8032 8009 8010 8007 8005 8006
+		8015 8011 8013 8014 8008 8032 8009 8010 8007 8005 8006
 }
 }
