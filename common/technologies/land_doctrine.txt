@@ -1818,6 +1818,8 @@ technologies = {
 		
 		path = {
 			leads_to_tech = naval_invasion_tactics_SF
+			leads_to_tech = SF_3rd_Right_1
+			leads_to_tech = SF_3rd_Left_1
 			research_cost_coeff = 1
 		}
 		
@@ -2055,6 +2057,8 @@ technologies = {
 
 		path = {
 			leads_to_tech = naval_invasion_tactics_SF
+			leads_to_tech = SF_3rd_Left_1
+			leads_to_tech = SF_3rd_Right_1
 			research_cost_coeff = 1
 		}
 		
@@ -4356,5 +4360,204 @@ technologies = {
 			position = { x = 0 y = 20 }
 		}
 	}
+		SF_3rd_Right_1 = {
+
+		xor={
+			SF_3rd_Left_1
+		}
+
+		path = {
+			leads_to_tech = SF_3rd_Right_2
+			research_cost_coeff = 1
+		}
+
+		start_year = 1941
+
+		max_dig_in = 2
+
+		category_light_infantry = {
+			max_organisation = 5		
+			default_morale = 0.15
+			defense = 0.1 
+		}
+
+		doctrine = yes
+		research_cost = 3.6
+
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 22 }
+		}
+						}
+						
+		SF_3rd_Right_2 = {
+
+		xor={
+			SF_3rd_Left_2
+		}
+
+		path = {
+			leads_to_tech = SF_3rd_Right_3
+			research_cost_coeff = 1
+		}
+
+		start_year = 1942
+
+		max_dig_in = 2
+
+		category_light_infantry = {
+			max_organisation = 5		
+			default_morale = 0.15
+			defense = 0.1 
+		}
+
+		doctrine = yes
+		research_cost = 3.6
+
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 24 }
+		}
+						}
+						
+		SF_3rd_Right_3 = {
+
+		xor={
+			SF_3rd_Left_3
+		}
+
+		path = {
+			
+			research_cost_coeff = 1
+		}
+
+		start_year = 1943
+
+		max_dig_in = 2
+
+		category_light_infantry = {
+			max_organisation = 5		
+			default_morale = 0.15
+			defense = 0.1 
+		}
+
+		doctrine = yes
+		research_cost = 3.6
+
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 26 }
+		}
+						}
+						
+		SF_3rd_Left_1 = {
+
+		path = {
+			leads_to_tech = SF_3rd_Left_2
+			research_cost_coeff = 1
+		}
+
+		start_year = 1941
+
+		max_dig_in = 2
+
+		category_light_infantry = {
+			max_organisation = 5		
+			default_morale = 0.15
+			defense = 0.1 
+		}
+
+		doctrine = yes
+		research_cost = 3.6
+
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 22 }
+		}
+						}
+						
+		SF_3rd_Left_2 = {
+
+		path = {
+			leads_to_tech = SF_3rd_Left_3
+			research_cost_coeff = 1
+		}
+
+		start_year = 1942
+
+		max_dig_in = 2
+
+		category_light_infantry = {
+			max_organisation = 5		
+			default_morale = 0.15
+			defense = 0.1 
+		}
+
+		doctrine = yes
+		research_cost = 3.6
+
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 24 }
+		}
+						}
+						
+		SF_3rd_Left_3 = {
+
+		path = {
+			
+			research_cost_coeff = 1
+		}
+
+		start_year = 1943
+
+		max_dig_in = 2
+
+		category_light_infantry = {
+			max_organisation = 5		
+			default_morale = 0.15
+			defense = 0.1 
+		}
+
+		doctrine = yes
+		research_cost = 3.6
+
+		categories = {
+			land_doctrine
+			cat_superior_firepower
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 26 }
+		}
+						}
+						
+		
 
 }
