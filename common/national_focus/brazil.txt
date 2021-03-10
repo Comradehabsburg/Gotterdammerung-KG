@@ -672,8 +672,8 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = rubber
-				amount = 240
-				state = 280
+				amount = 24
+				state = 306
 			}
 		}
 	}
