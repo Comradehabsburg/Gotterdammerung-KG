@@ -1,0 +1,11 @@
+state={
+id=847
+name="Central Mongolia"
+manpower = 1
+state_category = metropolis
+history={
+}
+provinces={
+		8058 8054 8055 8051 8046 8041 8035 8034 8040 8048 8039 8037
+}
+}

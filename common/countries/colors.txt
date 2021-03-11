@@ -130,6 +130,6 @@ MEX = {
 	color_ui = rgb { 69  209  120 }
 }
 IRE = {
-	color = rgb { 235  180  52 }
-	color_ui = rgb { 235  180  52 }
+	color = rgb { 96 173 52 }
+	color_ui = rgb { 96 173 52 }
 }

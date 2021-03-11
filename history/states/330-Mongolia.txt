@@ -1,11 +1,11 @@
 state={
 id=330
-name="STATE_330"
+name="East Mongolia"
 manpower = 1
-state_category = wasteland
+state_category = town
 history={
 }
 provinces={
-		1743
+		1743 8056 8044 8043 8052 8042 8043 8036
 }
 }
