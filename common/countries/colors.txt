@@ -133,3 +133,8 @@ IRE = {
 	color = rgb { 96 173 52 }
 	color_ui = rgb { 96 173 52 }
 }
+
+MON = {
+	color = rgb { 220 23 23 }
+	color_ui = rgb { 220 23 23 }
+}

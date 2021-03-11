@@ -1,9 +1,16 @@
 state={
 id=848
 name="West Mongolia"
-manpower = 1
+manpower = 1130000
 state_category = town
 history={
+		owner = MON
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = MON
 }
 provinces={
 		8047 8038 8050 8038 8045 8057 8053
