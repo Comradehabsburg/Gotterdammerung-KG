@@ -8046,7 +8046,7 @@
 8045;110;103;115;land;true;mountain;6
 8046;227;13;69;land;true;plains;6
 8047;100;26;188;land;true;mountain;6
-8048;240;112;212;land;true;mountain6
+8048;240;112;212;land;true;mountain;6
 8049;251;34;168;land;true;mountain;6
 8050;13;100;82;land;true;hills;6
 8051;239;85;79;land;true;mountain;6
@@ -8057,3 +8057,4 @@
 8056;203;6;94;land;true;plains;6
 8057;16;34;154;land;true;hills;6
 8058;26;179;194;land;true;mountain;6
+8059;151;253;49;land;false;mountain;3

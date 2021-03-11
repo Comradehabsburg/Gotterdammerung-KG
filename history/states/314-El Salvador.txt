@@ -1,17 +1,14 @@
 state={
 id=314
 name="STATE_314"
-manpower = 420
-state_category = metropolis
+manpower = 1
+state_category = wasteland
 history={
-owner = MEX
-		
+	
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 1
+
 		}
-		add_core_of = MEX
+
 }
 provinces={
 		1542 

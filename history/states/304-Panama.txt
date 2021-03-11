@@ -1,16 +1,14 @@
 state={
 id=304
 name="STATE_304"
-manpower = 143902
-state_category = metropolis
+manpower = 1
+state_category = wasteland
 history={
-owner = MEX
-		
+
 		buildings = {
-			infrastructure = 6
-			dockyard = 2
+
 		}
-		add_core_of = MEX
+
 }
 provinces={
 		4611 4624
