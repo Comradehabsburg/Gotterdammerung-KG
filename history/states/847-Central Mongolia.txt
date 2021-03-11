@@ -1,9 +1,18 @@
 state={
 id=847
 name="Central Mongolia"
-manpower = 1
+manpower = 2500000
 state_category = metropolis
 history={
+		owner = MON
+	buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 1
+			fuel_silo = 3
+		}
+		add_core_of = MON
 }
 provinces={
 		8058 8054 8055 8051 8046 8041 8035 8034 8040 8048 8039 8037
