@@ -13,7 +13,7 @@ SOV = {
 	color_ui = rgb { 163 17 31 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
+	color = rgb { 4 83 199 }
 	color_ui = rgb { 74 147 255 }
 }
 BEL = { color 	 = rgb { 193 171 8  }
@@ -67,6 +67,7 @@ DEN = {
 }
 BUL = {
 	color = rgb { 51 155 0 }
+
 	color_ui = rgb { 210 147 217 }
 }
 FIN = {
@@ -78,7 +79,7 @@ HUN = {
 	color_ui = rgb { 255 164 127 }
 }
 AST = {
-	color = rgb { 57 143 97 }
+	color = rgb { 20 173 103 }
 	color_ui = rgb { 74 186 126 }
 }
 CAN = {
@@ -102,7 +103,7 @@ PER = {
 	color_ui = rgb { 92 147 126 }
 }
 SIA = {
-	color = rgb { 171 190 152 }
+	color = rgb { 118 52 118 }
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
@@ -110,8 +111,8 @@ USA = {
 	color_ui = rgb { 87 160 255 }
 }
 RAJ = {
-	color = rgb { 170 10 10 }
-	color_ui = rgb { 255 128 0 }
+	color = rgb { 236 118 0 }
+	color_ui = rgb { 184 198 9 }
 }
 INS = {
 	color = rgb { 128  158  118 }
@@ -120,7 +121,4 @@ INS = {
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
-BRA = {
-	color = rgb { 128  158  118 }
-	color_ui = rgb { 128  158  118 }
 }

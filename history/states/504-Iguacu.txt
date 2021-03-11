@@ -4,7 +4,6 @@ name="STATE_504"
 manpower = 1
 state_category = wasteland
 history={
-owner = BRA
 }
 provinces={
 		4239

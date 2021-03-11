@@ -21,7 +21,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_remove_nonavyallies
-		icon = GFX_goal_generic_occupy_start_war
+		icon = GFX_Noras_usanonavyallies
 		x = 0
 		y = 0
 
@@ -2750,7 +2750,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_carrier_primacy
-		icon = GFX_carrier_primacy
+		icon = GFX_Noras_usacarrierprimacy
 		prerequisite = { focus = USA_bureau_of_ships }
 		x = -1
 		y = 1
