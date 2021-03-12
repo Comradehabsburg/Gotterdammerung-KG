@@ -290,7 +290,7 @@ NDefines.NMilitary.RIVER_CROSSING_PENALTY = -0.15
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.25
 NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY = -0.175           -- small river crossing
 NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY_LARGE = -0.2     -- large river crossing
-NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.125
+NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.135
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.05
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE = 0.3	       -- more AA attack will approach this amount of help (diminishing returns)
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 400 -- how quickly defense approaches the max impact diminishing returns curve
@@ -343,7 +343,7 @@ NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 8		-- chance to get a hit to
 
 --- AA and CAS defines:
 
-NDefines.NMilitary.AIR_SUPPORT_BASE = 0.23
+NDefines.NMilitary.AIR_SUPPORT_BASE = 0.22
 
 NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.09   -- air global damage modifier
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.09    -- global damage modifier

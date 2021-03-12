@@ -864,7 +864,7 @@ ideas = {
 				army_bonus_air_superiority_factor = -0.3
 				air_intercept_efficiency = -0.2
 				army_armor_speed_factor = 0.1
-				enemy_army_bonus_air_superiority_factor = 0.4
+				enemy_army_bonus_air_superiority_factor = 0.45
 			}
 	
 			
@@ -897,7 +897,7 @@ ideas = {
 				air_superiority_efficiency = -0.225
 				army_bonus_air_superiority_factor = -0.3
 				air_intercept_efficiency = -0.225
-				enemy_army_bonus_air_superiority_factor = 0.4
+				enemy_army_bonus_air_superiority_factor = 0.45
 			}
 		
 		}
@@ -926,7 +926,7 @@ ideas = {
 				air_superiority_efficiency = -0.1
 				army_bonus_air_superiority_factor = -0.05
 				air_intercept_efficiency = -0.1
-				enemy_army_bonus_air_superiority_factor = 0.25
+				enemy_army_bonus_air_superiority_factor = 0.3
 			}
 		}		
 		
