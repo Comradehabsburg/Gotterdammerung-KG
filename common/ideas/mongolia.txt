@@ -352,6 +352,17 @@ ideas = {
 			
 			traits = { war_industrialist }
 		}
+	SOV_nikolai_voznesensky = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = MON
+			}
+
+			traits = { captain_of_industry }
+		}
+	
 	}	
 
 	army_chief = {
@@ -584,6 +595,33 @@ ideas = {
 
 	}
 
+gaz = {
 
+
+			allowed = {
+				original_tag = MON
+			}
+			cost = 0
+
+
+
+			research_bonus = {
+				motorized_equipment = 0.3
+				mot_rockets = 0.50
+			}
+
+			equipment_bonus = {
+				motorized_rocket_equipment = {
+					reliability = 0.15
+					soft_attack = 0.05
+					defense = 0.10
+				}	
+			}		
+
+			traits = { motorized_equipment_manufacturer }
+
+			modifier = {
+			}
+		}
 
 }
