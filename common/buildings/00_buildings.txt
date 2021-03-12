@@ -191,4 +191,21 @@ buildings = {
 		value = 10
 		infrastructure_construction_effect = yes
 	}
+
+steel_refinery = {
+		show_on_map = 1
+		base_cost = 14000
+		icon_frame = 16
+		local_resources_steel = 10
+		local_resources_aluminium = 2
+        local_resources_chromium = 2
+        local_resources_tungsten = 2
+		refinery = yes
+		max_level = 3
+		shares_slots = yes
+		value = 5
+		infrastructure_construction_effect = yes
+		
+		show_modifier = yes
+	}
 }
