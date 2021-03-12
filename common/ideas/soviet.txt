@@ -1794,8 +1794,9 @@ ideas = {
 
 			allowed = {
 				original_tag = SOV
+				original_tag = MON
 			}
-			cost = 75
+			cost = 0
 
 
 
