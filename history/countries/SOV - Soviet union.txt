@@ -327,7 +327,7 @@ set_popularities = {
 
 create_faction = Comintern
 add_to_faction = SOV
-
+puppet = MON
 add_ideas = {
 	trotskyite_plot
 	soviet_closed_market

@@ -31,7 +31,7 @@ if = {
 }
 
 
-set_research_slots = 4
+set_research_slots = 3
 
 add_timed_idea = { idea = airandnavy_idea days = 1320 }
 # Starting tech
@@ -114,7 +114,13 @@ if = {
 		basic_depth_charges = 1
 	}
 }
-
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	add_ideas = {
+		GDU_scuffed_acclim
+	}
 if = {
 	limit = { has_dlc = "Together for Victory" }
 

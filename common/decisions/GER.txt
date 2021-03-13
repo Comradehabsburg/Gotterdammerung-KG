@@ -121,7 +121,8 @@ political_actions = {
 			country_exists = CZE
 		}
 		available = {
-			date > 1939.7.1
+			
+			has_completed_focus = GER_end_of_czechoslovakia
 		}
 
 		cost = 0

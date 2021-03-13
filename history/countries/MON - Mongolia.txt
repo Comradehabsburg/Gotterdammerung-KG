@@ -59,9 +59,26 @@ add_ideas = {
 	limited_conscription
 	MON_collectivisation_1
 	MON_nomad_1
+	general_winter_idea
 }
+add_timed_idea = { idea = airandnavy_idea days = 1950` }
 
+add_equipment_to_stockpile = {
+         type = artillery_equipment_1
+         amount = 200
+         producer = MON
+}  
+add_equipment_to_stockpile = {
+         type = support_equipment
+         amount = 150
+         producer = HUN
+} 
 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 6000
+         producer = HUN
+} 
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
@@ -72,6 +89,7 @@ set_popularities = {
 	communism = 60
 	neutrality = 40
 }
+add_to_faction = SOV
 
 create_country_leader = {
 	name = "Khorloogiin Choibalsan"
