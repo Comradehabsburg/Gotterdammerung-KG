@@ -224,6 +224,11 @@ economy_decisions = {
 				TAG = RAJ
 				TAG = AST
 				TAG = NZL
+				TAG = IRE
+				TAG = CZE
+				TAG = MEX
+				TAG = BRA
+				TAG = MON 
 			}
 		}
 
@@ -307,6 +312,11 @@ economy_decisions = {
 				TAG = RAJ
 				TAG = AST
 				TAG = NZL
+				TAG = IRE
+				TAG = CZE
+				TAG = MEX
+				TAG = BRA
+				TAG = MON 				
 			}
 		}
 

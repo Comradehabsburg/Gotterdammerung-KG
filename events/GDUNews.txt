@@ -38,7 +38,7 @@ news_event = {
 		name = gdunews.1.b
 		trigger = {
 			OR = { 
-				#tag = IRE 
+				tag = IRE 
 				tag = HOL
 				tag = ENG
 				is_in_faction_with = ENG 
@@ -65,7 +65,7 @@ news_event = {
 				tag = USA 
 				tag = SOV
 				tag = FRA
-				#tag = IRE 
+				tag = IRE 
 				tag = HOL
 				tag = POL
 			}

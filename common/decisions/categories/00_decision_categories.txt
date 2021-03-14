@@ -41,6 +41,11 @@ GDU_Afrika_Score_Category = {
 			original_tag = USA
 			original_tag = JAP
 			original_tag = SOV
+			original_tag = IRE
+			original_tag = CZE
+			original_tag = MEX
+			original_tag = BRA
+			original_tag = MON 			
 		}
 	}
 

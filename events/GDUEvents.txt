@@ -2819,16 +2819,15 @@ country_event = {
 			limit = {
 				OR = {
 					NOT = { has_global_flag = fall_of_poland }
-					NOT = { has_global_flag = fall_of_greece }
 					NOT = { has_global_flag = fall_of_france }
 					YUG = { surrender_progress < 1.0 }
-					DEN = { surrender_progress < 1.0 }
 					HOL = { surrender_progress < 1.0 }
 					FRA = { surrender_progress < 1.0 }
 				}
 			}
 			USA = {
 				annex_country = { target = GER transfer_troops = no }
+				annex_country = { target = CZE transfer_troops = no }
 				annex_country = { target = ITA transfer_troops = no }
 				annex_country = { target = SPR transfer_troops = no }
 				annex_country = { target = HUN transfer_troops = no }

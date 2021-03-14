@@ -9,6 +9,13 @@ USA_war_measures = {
 	}
 }
 
+USA_political_actions = {
+	
+	allowed = {
+		original_tag = USA
+	}
+}
+
 USA_The_Pacific_Campaign = {
 	
 	allowed = {

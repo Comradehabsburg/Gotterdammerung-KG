@@ -15,7 +15,7 @@ state_category = metropolis
 			air_base = 1
 			dockyard = 2
 			8033 = {
-			naval_base = 4
+			naval_base = 10
 			}
 		}
 		add_core_of = IRE

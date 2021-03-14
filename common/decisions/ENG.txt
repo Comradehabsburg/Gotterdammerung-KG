@@ -157,6 +157,29 @@ political_actions = {
 			}
 		}
 	}
+	
+		annex_ireland = {
+		ai_will_do = { factor = 0 }
+		cost = 0
+
+		allowed = {
+			original_tag = ENG
+		}
+		visible = {
+			IRE = { is_ai = yes }
+			country_exists = IRE
+			date > 1939.1.1
+			has_war = yes
+		}
+		fire_only_once = yes
+		complete_effect = {
+			ENG = {
+				annex_country = { target = IRE transfer_troops = yes }
+				add_ideas = annex_canada_idea
+				add_timed_idea = { idea = GDU_minor_annexation_efficiency days = 30 }				
+			}
+		}
+	}
 
 	annex_british_raj = {
 		ai_will_do = { factor = 0 }

@@ -207,6 +207,10 @@ political_actions = {
 				add_to_war = {
 					targeted_alliance = GER
 					enemy = NZL
+				}
+				add_to_war = {
+					targeted_alliance = GER
+					enemy = IRE
 				}				
 			}
 		}		
@@ -1194,6 +1198,40 @@ operations = {
 					popularity = 0.05
 				}
 			}
+			MEX = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_political_power = -100
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}
+			}
+			BRA = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_political_power = -100
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}
+			}			
 			ENG = {
 				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
 				add_war_support = -0.2
@@ -1279,6 +1317,23 @@ operations = {
 					popularity = 0.05
 				}
 			}
+			IRE = {
+				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
+				add_war_support = -0.2
+				add_political_power = -100
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}
+			}			
 			RAJ = {
 				add_timed_idea = { idea = ALLIES_fail_dday_idea days = 365 }
 				add_war_support = -0.2
@@ -1471,6 +1526,18 @@ foreign_politics = {
 					enemy = JAP
 					}
 				}
+				MEX = {
+					add_to_war = {
+					targeted_alliance = ENG
+					enemy = JAP
+					}
+				}
+				BRA = {
+					add_to_war = {
+					targeted_alliance = ENG
+					enemy = JAP
+					}
+				}				
 				AST = {
 					add_to_war = {
 					targeted_alliance = ENG
@@ -1507,6 +1574,12 @@ foreign_politics = {
 					enemy = JAP
 					}
 				}
+				IRE = {
+					add_to_war = {
+					targeted_alliance = ENG
+					enemy = JAP
+					}
+				}				
 				SAF = {
 					add_to_war = {
 					targeted_alliance = ENG
