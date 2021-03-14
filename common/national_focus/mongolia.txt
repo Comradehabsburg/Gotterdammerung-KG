@@ -383,17 +383,8 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_state_core = 329
-			add_state_core = 618
-			add_state_core = 760
-			add_state_core = 759
-			add_state_core = 287
-			add_state_core = 619
-			add_state_core = 617
-			add_state_core = 618
-			add_state_core = 757
-			add_state_core = 758
-			add_state_core = 322
+		
+			
 		}
 	}
 	
@@ -416,13 +407,11 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			remove_ideas = MON_collectivisation_2
-			add_popularity = {
-				ideology = communism
-				popularity = -0.2
+			
+			
 			}
-			add_stability = 0.1
-		}
+			
+
 	}
 	
 	focus = {
@@ -440,20 +429,10 @@ focus_tree = {
 			factor = 0
 		}
 		
-		available = {
-			329 = {
-				CONTROLLER = {
-					OR = {
-						tag = SOV
-						is_subject_of = SOV
-						is_in_faction_with = SOV
-					}
-				}
-			}
-		}
+
 
 		completion_reward = {
-			SOV = { country_event = mongolia.1 }
+			
 		}
 	}
 	
@@ -472,20 +451,10 @@ focus_tree = {
 			factor = 0
 		}
 		
-		available = {
-			617 = {
-				CONTROLLER = {
-					OR = {
-						tag = SOV
-						is_subject_of = SOV
-						is_in_faction_with = SOV
-					}
-				}
-			}
-		}
+		
 
 		completion_reward = {
-			SOV = { country_event = mongolia.2 }
+		
 		}
 	}
 	
@@ -619,21 +588,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
+		
 		}
 	}
 	
@@ -668,21 +623,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
+			
 		}
 	}
 	
@@ -767,7 +708,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			activate_mission = MON_tribute
+			
 		}
 	}
 	
@@ -844,7 +785,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = MONgaria
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = infantry_weapons
 			}
@@ -868,7 +809,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = MONgaria
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = artillery
 			}
@@ -892,7 +833,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = MONgaria
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = motorized_equipment
 			}
@@ -916,7 +857,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = MONgaria
-				bonus = 0.5
+				bonus = 1
 				uses = 2
 				category = armor
 			}
@@ -941,7 +882,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = MONgaria
-				bonus = 0.75
+				bonus = 1
 				uses = 2
 				category = land_doctrine
 			}
@@ -983,15 +924,15 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = MON_spirit_of_genghis_idea
-			create_corps_commander = {
-				name = "Kublai Force Ghost"
+			create_field_marshal = {
+				name = "Kublai Khan"
 				picture = "portrait_kublai.dds"
-				traits = { cavalry_leader war_hero brilliant_strategist }
-				skill = 4
-				attack_skill = 4
-				defense_skill = 4
-				planning_skill = 4
-				logistics_skill = 4
+				traits = { cavalry_leader war_hero brilliant_strategist reckless cavalry_expert cavalry_officer commando trickster adaptable ambusher combined_arms_expert offensive_doctrine aggressive_assaulter}
+				skill = 6
+				attack_skill = 6
+				defense_skill = 2
+				planning_skill = 5
+				logistics_skill = 7
 			}
 		}
 	}
