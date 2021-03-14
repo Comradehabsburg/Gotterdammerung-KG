@@ -152,74 +152,121 @@ ideas = {
 
 	political_advisor = {
 
-		MEX_washington_luis_pereira = {
 
-			picture = generic_political_advisor_south_america_1
-			
+
+		MEX_robert_manion = {
+			ledger = air
+			allowed = {
+				original_tag = MEX
+
+			}
+
+
+			picture = generic_democratic_reformer_commonwealth_2d
+
+			traits = { democratic_reformer }
+
+			on_add = {
+				country_event = political.13
+			}
+
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+
+
+
+		MEX_ian_a_mackenzie = {
+
+			picture = generic_political_advisor_europe_1
+
 			allowed = {
 				original_tag = MEX
 			}
-			
-			available = {
-				has_completed_focus = MEX_adopt_federalism
+
+			traits = { quartermaster_general }
+		}
+
+		MEX_r_b_bennett = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = MEX
 			}
-			
+
 			traits = { silent_workhorse }
 		}
 
-		MEX_osvaldo_aranha = {
+		MEX_newton_wesley_rowell = {
 
-			picture = generic_political_advisor_south_america_2
-				
+			picture = generic_political_advisor_europe_3
+
 			allowed = {
 				original_tag = MEX
 			}
-			
+
+			traits = { ideological_crusader }
+		}
+
+		MEX_leo_richer_lafleche = {
+
+			picture = generic_political_advisor_europe_3
+
+			allowed = {
+				original_tag = MEX
+				has_dlc = "Together for Victory"
+			}
+
 			traits = { popular_figurehead }
 		}
 
-		MEX_lindolfo_collor = {
+		MEX_james_ilsley = {
 
-			picture = generic_political_advisor_south_america_3
-			
+			picture = generic_political_advisor_europe_2
+
 			allowed = {
 				original_tag = MEX
+				has_dlc = "Together for Victory"
 			}
-			
-			traits = { financial_expert }
+
+			traits = { war_industrialist }
 		}
-		
-		MEX_gustavo_campanema = {
 
-			picture = generic_political_advisor_europe_5
-			
+		MEX_louis_st_laurent = {
+
+			picture = generic_political_advisor_europe_1
+
 			allowed = {
 				original_tag = MEX
+				has_dlc = "Together for Victory"
 			}
 			
-			available = {
-				has_completed_focus = MEX_stay_with_vargas
-			}
-			
-			traits = { technocrat }
+			traits = { compassionate_gentleman }
 		}
-		
-		
-		MEX_estavao_alves_correa = {
 
-			picture = generic_navy_south_america_2
-			
+		MEX_c_d_howe = {
+
+			picture = generic_political_advisor_europe_3
+
+
 			allowed = {
 				original_tag = MEX
+				has_dlc = "Together for Victory"
 			}
-			
-			available = {
-				has_completed_focus = MEX_appease_the_coffee_oligarchs
-			}
-			
-			traits = { coffee_oligarch }
+			traits = { captain_of_industry }
 		}
 	}
+	
+
 
 	theorist = {
 

@@ -1901,7 +1901,7 @@
 	}
 	focus = {
 		id = IRE_lost1
-		icon = GFX_USA_fight_fascist_with_fire
+		icon = GFX_focus_por_the_fifth_empire
 		x = 27	
 		y = 0
 		cost = 5
@@ -1924,13 +1924,12 @@
 			IRE = {
 				become_exiled_in = { target = USA legitimacy = 1.0 }	
 			}
-            add_ideas = PHI_fighting_on
 		}
 
 	}
 	focus = {
 		id = IRE_lost2
-		icon = GFX_USA_executive_office_of_the_president
+		icon = GFX_focus_por_the_fifth_empire
 		prerequisite = { focus = IRE_lost1 }
 		relative_position_id = IRE_lost1
 		x = 0
@@ -1968,7 +1967,7 @@
 	}
 	focus = {
 		id = IRE_lost3
-		icon = GFX_USA_reorganize_the_army_departments
+		icon = GFX_focus_por_the_fifth_empire
 		prerequisite = { focus = IRE_lost2 }
 		relative_position_id = IRE_lost2
 		x = 0
@@ -1990,8 +1989,7 @@
 		}
 		
 		completion_reward = {
-			add_manpower = 50000
-			add_ideas = PHI_refugee_volunteers
+			add_manpower = 200000
 		}
 	}
 	focus = {
@@ -2018,14 +2016,14 @@
 		}
 		
 		completion_reward = {
-			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = POR }
-			add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 750 producer = POR }
-			add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = POR }
-			add_equipment_to_stockpile = { type = radio_equipment amount = 500 producer = POR }
-			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 500 producer = POR }
-			add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 250 producer = POR }
-			add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 250 producer = POR }
-			add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 100 producer = POR }
+			add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 5000 producer = IRE }
+			add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 750 producer = IRE }
+			add_equipment_to_stockpile = { type = support_equipment_1 amount = 500 producer = IRE }
+			add_equipment_to_stockpile = { type = radio_equipment amount = 500 producer = IRE }
+			add_equipment_to_stockpile = { type = horse_equipment_0 amount = 500 producer = IRE }
+			add_equipment_to_stockpile = { type = anti_air_equipment_1 amount = 250 producer = IRE }
+			add_equipment_to_stockpile = { type = anti_tank_equipment_1 amount = 250 producer = IRE }
+			add_equipment_to_stockpile = { type = motorized_equipment_1 amount = 100 producer = IRE }
 		}
 	}
 	focus = {
@@ -2052,7 +2050,18 @@
 		}
 		
 		completion_reward = {
-			add_ideas = PHI_irredentism
+		    add_offsite_building = {
+		    	type = industrial_complex
+		    	level = 10
+		    }
+		    add_offsite_building = {
+		    	type = arms_factory
+		    	level = 15
+		    }
+		    add_offsite_building = {
+		    	type = dockyard
+		    	level = 2
+		    }
 		}
 	}
 }		

@@ -1863,6 +1863,9 @@ ideas = {
 					original_TAG = NZL 
 					original_TAG = AST 
 					original_TAG = HOL
+					original_TAG = MEX 
+					original_TAG = BRA	
+					original_TAG = IRE					
 				}
 			}
 
@@ -1905,6 +1908,9 @@ ideas = {
 					original_TAG = NZL 
 					original_TAG = AST 
 					original_TAG = HOL
+					original_TAG = MEX 
+					original_TAG = BRA	
+					original_TAG = IRE					
 				}
 			}
 			research_bonus = {
@@ -1946,6 +1952,9 @@ ideas = {
 					original_TAG = NZL 
 					original_TAG = AST 
 					original_TAG = HOL
+					original_TAG = MEX 
+					original_TAG = BRA	
+					original_TAG = IRE					
 				}
 			}
 			
@@ -1993,6 +2002,9 @@ ideas = {
 					original_TAG = NZL 
 					original_TAG = AST 
 					original_TAG = HOL
+					original_TAG = MEX 
+					original_TAG = BRA	
+					original_TAG = IRE					
 				}
 			}
 			research_bonus = {

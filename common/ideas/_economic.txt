@@ -305,12 +305,6 @@ ideas = {
 					}
 					NOT = { has_idea = alli_phoney_war }
 				}
-#				if = {
-#					limit = {
-#						original_tag = IRE
-#					}
-#					NOT = { has_idea = alli_phoney_war }
-#				}
 				if = {
 					limit = {
 						original_tag = CAN

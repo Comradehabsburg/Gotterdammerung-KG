@@ -414,26 +414,116 @@ ideas = {
 
 	political_advisor = {
 
-		IRE_douglas_hyde = {
 
-			picture = generic_political_advisor_europe_3
-				
+
+		IRE_robert_manion = {
+			ledger = air
+			allowed = {
+				original_tag = IRE
+
+			}
+
+
+			picture = generic_democratic_reformer_commonwealth_2d
+
+			traits = { democratic_reformer }
+
+			on_add = {
+				country_event = political.13
+			}
+
+			do_effect = {
+				NOT = {
+					has_government = democratic
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+
+
+
+		IRE_ian_a_mackenzie = {
+
+			picture = generic_political_advisor_europe_1
+
 			allowed = {
 				original_tag = IRE
 			}
-			
+
+			traits = { quartermaster_general }
+		}
+
+		IRE_r_b_bennett = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = IRE
+			}
+
+			traits = { silent_workhorse }
+		}
+
+		IRE_newton_wesley_rowell = {
+
+			picture = generic_political_advisor_europe_3
+
+			allowed = {
+				original_tag = IRE
+			}
+
+			traits = { ideological_crusader }
+		}
+
+		IRE_leo_richer_lafleche = {
+
+			picture = generic_political_advisor_europe_3
+
+			allowed = {
+				original_tag = IRE
+				has_dlc = "Together for Victory"
+			}
+
 			traits = { popular_figurehead }
 		}
 
-		IRE_sean_ceallaigh = {
+		IRE_james_ilsley = {
 
-			picture = generic_political_advisor_europe_1
-			
+			picture = generic_political_advisor_europe_2
+
 			allowed = {
 				original_tag = IRE
+				has_dlc = "Together for Victory"
+			}
+
+			traits = { war_industrialist }
+		}
+
+		IRE_louis_st_laurent = {
+
+			picture = generic_political_advisor_europe_1
+
+			allowed = {
+				original_tag = IRE
+				has_dlc = "Together for Victory"
 			}
 			
-			traits = { smooth_talking_charmer }
+			traits = { compassionate_gentleman }
+		}
+
+		IRE_c_d_howe = {
+
+			picture = generic_political_advisor_europe_3
+
+			allowed = {
+				original_tag = IRE
+				has_dlc = "Together for Victory"
+			}
+			traits = { captain_of_industry }
 		}
 	}
 	

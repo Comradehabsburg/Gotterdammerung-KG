@@ -55,10 +55,10 @@
 
  #### PARTIES ####
  
- ##### MEXZIL #####
+ ##### Mexico #####
  
  #### FOCUSES ####
- MEX_stay_with_vargas:0 "Populism"
+ MEX_stay_with_steiner:0 "Steiner saves Mexico"
  MEX_adopt_federalism:0 "Federalism"
  MEX_declare_third_republic:0 "Declare the Third Republic"
  MEX_new_constitution:0 "Sign the New Constitution"
@@ -67,12 +67,12 @@
  MEX_align_with_america:0 "Align with the USA"
  MEX_deterrence:0 "Deterrence"
  MEX_join_the_allies:0 "Join the Allies"
- MEX_appease_the_coffee_oligarchs:0 "Appease the Coffee Oligarchs"
- MEX_curtail_the_coffe_oligarchs:0 "Curtail the Coffee Oligarchs"
- MEX_end_coffee_with_milk:0 "End Coffee with Milk"
- MEX_nationalise_coffee_industry:0 "Nationalise the Coffee Industry"
+ MEX_appease_the_oil_oligarchs:0 "Appease the Oil Oligarchs"
+ MEX_curtail_the_oil_oligarchs:0 "Curtail the Oil Oligarchs"
+ MEX_end_oil_with_war:0 "End Oil with War"
+ MEX_nationalise_oil_industry:0 "Nationalise the Oil Industry"
  MEX_begin_industrial_centralisation:0 "Begin Industrial Centralisation"
- MEX_MEXzilian_modernisation:0 "MEXzilian Modernisation"
+ MEX_Mexzilian_modernisation:0 "Mexzilian Modernisation"
  MEX_private_sector_expansion:0 "Private Sector Expansion"
  MEX_agrarian_reform:0 "Agrarian Reform"
  MEX_invite_us_investors:0 "Invite US Investors"
@@ -80,18 +80,18 @@
  MEX_american_defence_investments:0 "Defence Industry Investments"
  MEX_american_experts:0 "Invite Americans Experts"
  MEX_infrastructure_revitalisation:0 "Infrastructure Revitalisation"
- MEX_amazonian_infrastructure:0 "Amazon Infrastructure Development"
- MEX_amazonian_rubber:0 "Expand Rubber Plantations"
- MEX_MEXzilian_arms_investments:0 "MEXzilian Arms Investments"
+ MEX_infrastructure_expansion:0 "Infrastructure Expansion"
+ MEX_prospecting:0 "Mexican Prospecting"
+ MEX_Mexzilian_arms_investments:0 "Mexzilian Arms Investments"
  MEX_national_defence_state:0 "National Defence State"
  MEX_industrial_innovations:0 "Industrial Innovations"
- MEX_armed_forces:0 "MEXzilian Armed Forces"
+ MEX_armed_forces:0 "Mexzilian Armed Forces"
  MEX_military_modernisation:0 "Military Modernisation"
  MEX_new_rifles:0 "New Small Arms"
  MEX_artillery_experiments:0 "Artillery Experiments"
  MEX_motorisation_effort:0 "Mechanisation Effort"
  MEX_support_companies:0 "Expand Support Sections"
- MEX_MEXzilian_expeditionary_force:0 "Form the MEXzilian Expeditionary Force"
+ MEX_Mexzilian_expeditionary_force:0 "Form the Mexzilian Expeditionary Force"
  MEX_american_advisors:0 "American Advisors"
  MEX_pracinhas:0 "Pracinhas"
  MEX_bandeirantes:0 "Bandeirantes"
@@ -101,10 +101,10 @@
  ### IDEAS ###
  MEX_usa_license:0 "US Advisors"
  MEX_revolution_of_1930:0 "Legacy of the Revolution"
- MEX_coffee_oligarchs:0 "Coffee Oligarchs"
+ MEX_oil_oligarchs:0 "oil Oligarchs"
  MEX_great_depression_1:0 "Great Depression"
  MEX_pracinhas:0 "Pracinhas"
- coffee_oligarch:0 "Coffee Oligarch"
+ oil_oligarch:0 "Oil Oligarch"
  MEX_washington_luis_pereira:0 "Washington Luis"
  MEX_osvaldo_aranha:0 "Osvaldo Aranha"
  MEX_lindolfo_collor:0 "Lindolfo Collor"
@@ -117,9 +117,10 @@
  MEX_joao_baptista_de_morais:0 "João Baptista Mascarenhas de Morais"
  MEX_eurico_gaspar_dutra:0 "Eurico Gaspar Dutra"
  MEX_bandeirantes_idea:0 "Bandeirantes"
+ MEX_john_murchie:0 "John Murchie"
 
  #### TOOLTIP ####
- MEX_third_republic:0 "Third MEXzilian Republic"
+ MEX_third_republic:0 "Third Mexzilian Republic"
  RAJ_jungle_training_effect:0 "Enables §HJungle Training§!\n§HAll Infantry:\n    Jungle§!\n      Attack: §G+5%§!\n      Defence: §G+5%§!\n      Movement: §G+10%§!"
 
  #### PARTIES ####

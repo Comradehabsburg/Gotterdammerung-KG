@@ -1220,6 +1220,7 @@ ideas = {
 					original_TAG = BUL 
 					original_TAG = SPR
 					original_TAG = ROM
+					original_TAG = CZE
 				}
 			}
 
@@ -1257,7 +1258,8 @@ ideas = {
 					original_TAG = SPR
 					original_TAG = ROM
 					original_TAG = ITA
-					original_TAG = FIN					
+					original_TAG = FIN
+					original_TAG = CZE
 				}
 			}
 			
@@ -1292,7 +1294,8 @@ ideas = {
 					original_TAG = HUN 
 					original_TAG = BUL 
 					original_TAG = SPR
-					original_TAG = ROM	
+					original_TAG = ROM
+					original_TAG = CZE
 				}			
 			}
 			available = {
@@ -1335,6 +1338,7 @@ ideas = {
 					original_TAG = BUL 
 					original_TAG = SPR
 					original_TAG = ROM
+					original_TAG = CZE
 				}
 			}
 			research_bonus = {
@@ -1373,7 +1377,8 @@ ideas = {
 					original_TAG = BUL 
 					original_TAG = SPR
 					original_TAG = ROM
-					original_TAG = ITA					
+					original_TAG = ITA	
+					original_TAG = CZE
 				}
 			}
 			available = {
@@ -1408,6 +1413,7 @@ ideas = {
 					original_TAG = BUL 
 					original_TAG = SPR
 					original_TAG = ROM
+					original_TAG = CZE
 				}
 			}
 
