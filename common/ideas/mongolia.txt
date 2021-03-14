@@ -224,11 +224,8 @@ ideas = {
 				supply_consumption_factor = -0.20
 				mobilization_speed = -0.75
 			}
-			equipment_bonus = {
-				horse_equipment = {
-					build_cost_ic = -0.50 instant = yes
-				}
-			}
+			
+			
 		}
 		
 		MON_nomad_1 = {
@@ -253,11 +250,7 @@ ideas = {
 				supply_consumption_factor = -0.1
 				mobilization_speed = -0.5
 			}
-			equipment_bonus = {
-				horse_equipment = {
-					build_cost_ic = -0.30 instant = yes
-				}
-			}
+			
 		}
 		
 		MON_nomad_2 = {
@@ -282,11 +275,7 @@ ideas = {
 				supply_consumption_factor = -0.05
 				mobilization_speed = -0.25
 			}
-			equipment_bonus = {
-				horse_equipment = {
-					build_cost_ic = -0.15 instant = yes
-				}
-			}
+			
 		}	
 
 		MON_nomad_3 = {
@@ -309,11 +298,7 @@ ideas = {
 				production_speed_buildings_factor = -0.05
 				mobilization_speed = -0.1
 			}
-			equipment_bonus = {
-				horse_equipment = {
-					build_cost_ic = -0.10 instant = yes
-				}
-			}
+			
 		}		
 
 	}
