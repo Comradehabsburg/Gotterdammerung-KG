@@ -1050,22 +1050,26 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			GER = { set_autonomy = { target = CZE autonomy_state = autonomy_satellite }
+			GER = { set_autonomy = { target = CZE autonomy_state = autonomy_reichsprotectorate }
 			HUN = { transfer_state = 664 
 				transfer_state = 73
+				transfer_state = 70
+				transfer_state = 71
 				}
 			CZE = {
 				
 				set_technology = { basic_medium_tank = 1 }
+				set_cosmetic_tag = CZE_reichskommissariat
+				add_war_support = 0.50
 				create_equipment_variant = {
 					name = "LT-38 E"
 					type = medium_tank_equipment_1
 					parent_version = 0
 					upgrades = {
-						tank_gun_upgrade = 2
-						tank_armor_upgrade = 4
-						tank_engine_upgrade = 3
-						tank_reliability_upgrade = 6
+						tank_gun_upgrade = 0
+						tank_armor_upgrade = 0
+						tank_engine_upgrade = 7
+						tank_reliability_upgrade = 0
 					}
 				}
 			}

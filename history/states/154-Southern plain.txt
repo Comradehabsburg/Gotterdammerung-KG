@@ -4,12 +4,12 @@ state = {
 	name="STATE_154"
 	manpower = 2735383
 
-	state_category = city
+	state_category = megalopolis
 
 	history = {
 		owner = HUN
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			arms_factory = 3
 			industrial_complex = 3
 			air_base = 8

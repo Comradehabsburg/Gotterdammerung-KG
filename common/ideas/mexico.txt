@@ -16,8 +16,23 @@ ideas = {
 				license_production_speed = 0.2
 				license_tech_difference_speed = 0.2
 			}
-		}
-	
+		}		
+		MEX_funny_revolution = {
+
+			picture = generic_purge
+			
+			allowed = {
+				original_tag = MEX
+			}
+			
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				consumer_goods_factor = -0.05
+				global_building_slots_factor = 0.15
+				production_speed_buildings_factor = 0.1				
+			}
+		}	
 		MEX_revolution_of_1930 = {
 
 			picture = generic_purge

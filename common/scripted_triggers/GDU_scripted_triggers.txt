@@ -18,6 +18,9 @@ is_in_faction_with_allies = {
 		original_tag = NZL
 		original_tag = AST
 		original_tag = FRF
+		original_tag = IRE
+		original_tag = MEX		
+		original_tag = BRA			
 	}
 }
 
@@ -32,6 +35,7 @@ is_in_faction_with_axis = {
 		original_tag = ITA
 		original_tag = HUN
 		original_tag = ROM
+		original_tag = CZE		
 	}
 }
 
@@ -45,6 +49,7 @@ is_in_faction_with_axis_except_vichy = {
 		original_tag = ITA
 		original_tag = HUN
 		original_tag = ROM
+		original_tag = CZE		
 	}
 }
 
@@ -59,6 +64,7 @@ is_in_faction_with_axis_or_japan = {
 		original_tag = ITA
 		original_tag = HUN
 		original_tag = ROM
+		original_tag = CZE		
 	}
 }
 
@@ -104,5 +110,10 @@ is_playable_country = {
 		original_tag = AST
 		original_tag = FRF
 		original_tag = FRA
+		original_tag = IRE
+		original_tag = MEX
+		original_tag = CZE	
+		original_tag = MON		
+		original_tag = BRA				
 	}
 }

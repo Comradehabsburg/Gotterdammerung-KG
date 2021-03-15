@@ -29,11 +29,30 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_stability = 0.1
+			add_stability = 0.15
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}			
 			add_popularity = {
 				ideology = democratic
-				popularity = -0.1
+				popularity = 0.2
 			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = industrial_complex
+					level = 5
+					instant_build = yes
+				}
+			}			
 		}
 	}
 	
@@ -51,6 +70,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_ideas = BRA_funny_revolution 
 			set_politics = {
 				ruling_party = democratic
 				elections_allowed = yes
@@ -212,7 +232,7 @@ focus_tree = {
 		available = {
 			OR = {
 				ENG = {
-					has_war_with = JAP
+					has_war_with = GER
 				}
 				USA = {
 					has_war_with = GER
@@ -228,7 +248,7 @@ focus_tree = {
 			ENG = {
 				country_event = generic.2
 			}
-			remove_ideas = neutrality_idea2
+
 		}
 	}
 	

@@ -6,7 +6,7 @@ state_category = metropolis
 	history={
 		owner = IRE
 		victory_points = {
-			8033 10 
+			8033 15 
 		}
 		buildings = {
 			infrastructure = 7
@@ -15,7 +15,7 @@ state_category = metropolis
 			air_base = 1
 			dockyard = 2
 			8033 = {
-			naval_base = 10
+			naval_base = 20
 			}
 		}
 		add_core_of = IRE
