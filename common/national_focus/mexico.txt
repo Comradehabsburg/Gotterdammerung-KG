@@ -52,6 +52,21 @@ focus_tree = {
 					level = 2
 					instant_build = yes
 				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
 			}			
 		}
 	}
@@ -350,6 +365,14 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			311 = {
+			add_building_construction = {
+				type = naval_base
+				level = 20
+				province = 2077
+				instant_build = yes
+			 } 	
+			}		
 			add_tech_bonus = {
 				name = GER_four_year_plan
 				bonus = 0.5
