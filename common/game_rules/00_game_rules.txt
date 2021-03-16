@@ -51,6 +51,21 @@ set_host_country = {
 		desc = ""
 	}
 	option = {
+		name = Mongolia
+		text = "Mongolia"
+		desc = ""
+	}
+	option = {
+		name = Mexico
+		text = "Mexico"
+		desc = ""
+	}
+	option = {
+		name = Brazil
+		text = "Brazil"
+		desc = ""
+	}	
+	option = {
 		name = Canada
 		text = "Canada"
 		desc = ""

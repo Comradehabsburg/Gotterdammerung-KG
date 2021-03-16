@@ -410,6 +410,18 @@ country_event = {
 				}
 			}
 		}
+		if = {
+			limit = {
+				tag = CZE
+			}
+			CZE = {
+				diplomatic_relation = {
+				country = EFR
+				relation = military_access
+				active = no
+				}
+			}
+		}		
 
 
 	}

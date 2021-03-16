@@ -35,6 +35,7 @@ GDU_Afrika_Score_Category = {
 			ROM = { add_dynamic_modifier = { modifier = axis_afrika_modifier_spirit } }
 			HUN = { add_dynamic_modifier = { modifier = axis_afrika_modifier_spirit } }
 			BUL = { add_dynamic_modifier = { modifier = axis_afrika_modifier_spirit } }
+			CZE	= { add_dynamic_modifier = { modifier = soviet_afrika_modifier_spirit } }			
 			
 			ENG = { add_dynamic_modifier = { modifier = allied_afrika_modifier_spirit } }
 			AST = { add_dynamic_modifier = { modifier = allied_afrika_modifier_spirit } }
@@ -44,6 +45,10 @@ GDU_Afrika_Score_Category = {
 			RAJ = { add_dynamic_modifier = { modifier = allied_afrika_modifier_spirit } }
 			USA = { add_dynamic_modifier = { modifier = allied_afrika_modifier_spirit } }
 			SOV	= { add_dynamic_modifier = { modifier = soviet_afrika_modifier_spirit } }
+			MON	= { add_dynamic_modifier = { modifier = soviet_afrika_modifier_spirit } }
+			IRE	= { add_dynamic_modifier = { modifier = soviet_afrika_modifier_spirit } }
+			MEX	= { add_dynamic_modifier = { modifier = soviet_afrika_modifier_spirit } }
+			BRA	= { add_dynamic_modifier = { modifier = soviet_afrika_modifier_spirit } }			
 		}
 	}
 	
@@ -66,6 +71,9 @@ GDU_Afrika_Score_Category = {
 					FROM = { is_fully_controlled_by = NZL }
 					FROM = { is_fully_controlled_by = RAJ }
 					FROM = { is_fully_controlled_by = FRF }
+					FROM = { is_fully_controlled_by = IRE }	
+					FROM = { is_fully_controlled_by = MEX }
+					FROM = { is_fully_controlled_by = BRA }					
 				} 
 			}
 		}
@@ -89,6 +97,9 @@ GDU_Afrika_Score_Category = {
 					is_fully_controlled_by = AST
 					is_fully_controlled_by = NZL
 					is_fully_controlled_by = RAJ
+					is_fully_controlled_by = BRA
+					is_fully_controlled_by = MEX
+					is_fully_controlled_by = IRE
 				}
 				OR = {
 					is_island_state = yes
@@ -99,6 +110,7 @@ GDU_Afrika_Score_Category = {
 							is_controlled_by = ROM
 							is_controlled_by = HUN
 							is_controlled_by = BUL
+							is_controlled_by = CZE
 						}
 					}
 					state = 182
@@ -145,6 +157,7 @@ GDU_Afrika_Score_Category = {
 								is_controlled_by = ROM
 								is_controlled_by = HUN
 								is_controlled_by = BUL
+								is_controlled_by = CZE
 							}
 						}
 					}
@@ -174,6 +187,7 @@ GDU_Afrika_Score_Category = {
 					FROM = { is_fully_controlled_by = ROM }
 					FROM = { is_fully_controlled_by = HUN }
 					FROM = { is_fully_controlled_by = BUL }
+					FROM = { is_fully_controlled_by = CZE }
 				} 
 			}
 		}
@@ -194,6 +208,7 @@ GDU_Afrika_Score_Category = {
 					is_fully_controlled_by = ROM
 					is_fully_controlled_by = HUN
 					is_fully_controlled_by = BUL
+					is_fully_controlled_by = CZE
 				}
 				OR = {
 					is_island_state = yes
@@ -260,6 +275,9 @@ GDU_Afrika_Score_Category = {
 								is_controlled_by = AST
 								is_controlled_by = NZL
 								is_controlled_by = RAJ
+								is_controlled_by = IRE
+								is_controlled_by = MEX
+								is_controlled_by = BRA								
 							}
 						}
 					}

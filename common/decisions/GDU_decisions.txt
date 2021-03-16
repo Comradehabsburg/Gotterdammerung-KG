@@ -1367,9 +1367,7 @@ operations = {
 					ideology = neutrality
 					popularity = 0.05
 				}
-			}
-
-
+			}			
 		}
 
 		timeout_effect = {
@@ -1621,6 +1619,7 @@ foreign_politics = {
 				ROM = { controls_state = 291 }
 				HUN = { controls_state = 291 }
 				BUL = { controls_state = 291 }
+				CZE = { controls_state = 291 }				
 			}
 		}
 

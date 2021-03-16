@@ -1,5 +1,7 @@
 ﻿l_english:
  war_bonds_cancel:0 "Cancel War Bonds"
+ pp_for_civs:0 "Buy a Civilian Factory"
+ pp_for_mils:0 "Subsidize Military Industry"
  GDU_USA_SydneyNavalBase:0 "Repair ships with US Docks at the Sydney Naval Base"
  GDU_USA_BombayNavalBase:0 "Repair ships with US Docks at the Bombay Naval Base" 
  

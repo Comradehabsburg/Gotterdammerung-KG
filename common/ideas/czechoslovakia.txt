@@ -563,6 +563,26 @@ ideas = {
 			
 			traits = { prince_of_terror }
 		}
+		CZE_james_ilsley = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = CZE
+			}
+
+			traits = { war_industrialist }
+		}
+
+		CZE_c_d_howe = {
+
+			picture = generic_political_advisor_europe_3
+
+			allowed = {
+				original_tag = CZE
+			}
+			traits = { captain_of_industry }
+		}		
 
 		CZE_ferdinand_catlos = {
 

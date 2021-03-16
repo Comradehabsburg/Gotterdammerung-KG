@@ -61,7 +61,22 @@ country_event = {
 				}
 				JAP = {
 					add_ideas = GDU1942_airlosses
-				}		
+				}
+				MON = {
+					add_ideas = GDU1942_airlosses
+				}
+				MEX = {
+					add_ideas = GDU1942_airlosses
+				}
+				BRA = {
+					add_ideas = GDU1942_airlosses
+				}	
+				IRE = {
+					add_ideas = GDU1942_airlosses
+				}	
+				CZE = {
+					add_ideas = GDU1942_airlosses
+				}				
 				AST = { remove_ideas = AST_papua }
 				NZL = { remove_ideas = AST_papua }				
 	}
@@ -167,7 +182,32 @@ country_event = {
 					swap_ideas = { 
 						remove_idea = GDU1942_airlosses
 						add_idea = GDU1943_airlosses
-					}				}		
+					}				}
+				MON = {
+					swap_ideas = { 
+						remove_idea = GDU1942_airlosses
+						add_idea = GDU1943_airlosses
+					}				}
+				MEX = {
+					swap_ideas = { 
+						remove_idea = GDU1942_airlosses
+						add_idea = GDU1943_airlosses
+					}				}
+				BRA = {
+					swap_ideas = { 
+						remove_idea = GDU1942_airlosses
+						add_idea = GDU1943_airlosses
+					}				}
+				IRE = {
+					swap_ideas = { 
+						remove_idea = GDU1942_airlosses
+						add_idea = GDU1943_airlosses
+					}				}
+				CZE = {
+					swap_ideas = { 
+						remove_idea = GDU1942_airlosses
+						add_idea = GDU1943_airlosses
+					}				}					
 	}
 	
 	option = {
@@ -274,7 +314,32 @@ country_event = {
 					swap_ideas = { 
 						remove_idea = GDU1943_airlosses
 						add_idea = GDU1944_airlosses
-					}				}		
+					}				}
+				MON = {
+					swap_ideas = { 
+						remove_idea = GDU1943_airlosses
+						add_idea = GDU1944_airlosses
+					}				}
+				MEX = {
+					swap_ideas = { 
+						remove_idea = GDU1943_airlosses
+						add_idea = GDU1944_airlosses
+					}				}
+				BRA = {
+					swap_ideas = { 
+						remove_idea = GDU1943_airlosses
+						add_idea = GDU1944_airlosses
+					}				}
+				IRE = {
+					swap_ideas = { 
+						remove_idea = GDU1943_airlosses
+						add_idea = GDU1944_airlosses
+					}				}
+				CZE = {
+					swap_ideas = { 
+						remove_idea = GDU1943_airlosses
+						add_idea = GDU1944_airlosses
+					}				}					
 	}
 	
 	option = {
@@ -378,7 +443,32 @@ country_event = {
 					swap_ideas = { 
 						remove_idea = GDU1944_airlosses
 						add_idea = GDU1945_airlosses
-					}				}		
+					}				}
+				MON = {
+					swap_ideas = { 
+						remove_idea = GDU1944_airlosses
+						add_idea = GDU1945_airlosses
+					}				}
+				MEX = {
+					swap_ideas = { 
+						remove_idea = GDU1944_airlosses
+						add_idea = GDU1945_airlosses
+					}				}
+				BRA = {
+					swap_ideas = { 
+						remove_idea = GDU1944_airlosses
+						add_idea = GDU1945_airlosses
+					}				}
+				IRE = {
+					swap_ideas = { 
+						remove_idea = GDU1944_airlosses
+						add_idea = GDU1945_airlosses
+					}				}
+				CZE = {
+					swap_ideas = { 
+						remove_idea = GDU1944_airlosses
+						add_idea = GDU1945_airlosses
+					}				}					
 	}
 	
 	option = {

@@ -1032,7 +1032,8 @@ ideas = {
 					original_TAG = BUL 
 					original_TAG = SPR
 					original_TAG = ROM
-					original_TAG = ITA					
+					original_TAG = ITA	
+					original_TAG = CZE						
 				}
 			}
 			available = { 
@@ -1166,6 +1167,7 @@ ideas = {
 					original_TAG = BUL 
 					original_TAG = SPR
 					original_TAG = ROM
+					original_TAG = CZE					
 				}
 			}
 

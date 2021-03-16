@@ -11,7 +11,7 @@ political_actions = {
 		}
 
 		allowed = { 
-			is_playable_country = yes
+			always = yes
 		}
 
 		visible = {
@@ -47,6 +47,114 @@ political_actions = {
 			}
 		}
 	}
+	pp_for_civs = {
+
+		icon = GFX_decision_hol_exchange_intelligence_data
+
+		available = {
+			always = yes
+		}
+
+		allowed = { 
+			always = yes
+		}
+
+		visible = {
+			always = yes
+			NOT = { tag = USA }
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			industrial_capacity_factory = -0.01
+		}
+
+		days_remove = 90
+		days_re_enable = 10
+
+		cost = 300
+
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.6
+			}
+		}
+	}
+	
+	pp_for_mils = {
+
+		icon = GFX_decision_hol_exchange_intelligence_data
+
+		available = {
+			always = yes
+		}
+
+		allowed = { 
+			always = yes
+		}
+
+		visible = {
+			always = yes
+			NOT = { tag = USA }
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			industrial_capacity_factory = 0.20
+			production_speed_arms_factory_factor = 0.20			
+		}
+
+		days_remove = 90
+		days_re_enable = 10
+
+		cost = 400
+
+		complete_effect = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.6
+			}
+		}
+	}	
 
 	promises_of_peace = {
 
@@ -150,7 +258,7 @@ war_measures = {
 	war_bonds_cancel = {
 		icon = generic_industry
 		allowed = {
-			is_playable_country =yes
+			always = yes
 		}
 		available = {
 			has_war = yes
@@ -206,30 +314,8 @@ economy_decisions = {
 
 		icon = generic_construction
 
-		allowed = { 
-			or = {
-				TAG = SOV
-				TAG = ITA
-				TAG = SPR
-				TAG = HUN
-				TAG = BUL
-				TAG = ROM
-				TAG = FIN
-				TAG = JAP
-				TAG = ENG
-				TAG = FRA
-				TAG = FRF
-				TAG = CAN
-				TAG = SAF
-				TAG = RAJ
-				TAG = AST
-				TAG = NZL
-				TAG = IRE
-				TAG = CZE
-				TAG = MEX
-				TAG = BRA
-				TAG = MON 
-			}
+		allowed = {
+			always = yes
 		}
 
         cost = 100
@@ -294,30 +380,8 @@ economy_decisions = {
 
     	icon = generic_construction
 
-		allowed = { 
-			or = {
-				TAG = SOV
-				TAG = ITA
-				TAG = SPR
-				TAG = HUN
-				TAG = BUL
-				TAG = ROM
-				TAG = FIN
-				TAG = JAP
-				TAG = ENG
-				TAG = FRA
-				TAG = FRF
-				TAG = CAN
-				TAG = SAF
-				TAG = RAJ
-				TAG = AST
-				TAG = NZL
-				TAG = IRE
-				TAG = CZE
-				TAG = MEX
-				TAG = BRA
-				TAG = MON 				
-			}
+		allowed = {
+			always = yes
 		}
 
         cost = 50
