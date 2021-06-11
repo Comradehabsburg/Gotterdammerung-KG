@@ -2,8 +2,14 @@ state={
 id=504
 name="STATE_504"
 manpower = 1
-state_category = wasteland
+state_category = metropolis
 history={
+buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			fuel_silo = 1
+		}
 owner = BRA
 }
 provinces={

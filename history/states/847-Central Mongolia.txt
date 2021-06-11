@@ -2,6 +2,12 @@ state={
 id=847
 name="Central Mongolia"
 manpower = 2500000
+	resources={
+		steel=32
+		aluminium=40
+		tungsten=8
+		chromium=16
+	}
 state_category = metropolis
 history={
 		owner = MON

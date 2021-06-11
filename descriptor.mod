@@ -1,4 +1,4 @@
-version="1.10.4"
+version="1.10.7"
 tags={
 	"National Focuses"
 	"Technologies"
@@ -74,4 +74,4 @@ replace_path="common/units/names_ships"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
 picture="pattank.jpg"
-supported_version="1.10.4"
+supported_version="1.10.7"
