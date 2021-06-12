@@ -1,6 +1,7 @@
 ﻿capital = 847
 
 oob = "MON_1936"
+set_research_slots = 3
 
 # Starting tech
 set_technology = {
@@ -43,7 +44,6 @@ heavy_fighter1 = 1
 	fuel_refining = 1
 	air_superiority = 1
 	forward_interception = 1
-	motorized_rocket_unit = 1
 	basic_light_td = 1
 	basic_light_art = 1
 	basic_light_spaa = 1
@@ -65,20 +65,41 @@ add_timed_idea = { idea = airandnavy_idea days = 1950` }
 
 add_equipment_to_stockpile = {
          type = artillery_equipment_1
-         amount = 200
+         amount = 500
          producer = MON
 }  
 add_equipment_to_stockpile = {
          type = support_equipment
-         amount = 150
-         producer = HUN
+         amount = 400
+         producer = MON
+} 
+add_equipment_to_stockpile = {
+         type = anti_tank_equipment_1
+         amount = 300
+         producer = MON
+} 
+add_equipment_to_stockpile = {
+         type = infantry_equipment_1
+         amount = 3000
+         producer = MON
+} 
+add_equipment_to_stockpile = {
+         type = motorized_equipment_1
+         amount = 100
+         producer = MON
+}
+add_equipment_to_stockpile = {
+         type = light_tank_equipment_1
+         amount = 300
+         producer = MON
 } 
 
 add_equipment_to_stockpile = {
-         type = infantry_equipment_1
-         amount = 6000
-         producer = HUN
-} 
+	type = anti_air_equipment_1
+    amount = 350
+    producer = MON
+}
+
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"

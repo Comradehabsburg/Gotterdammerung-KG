@@ -13,8 +13,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				cavalry_attack_factor = 0.1
-				cavalry_defence_factor = 0.1
+				army_artillery_attack_factor = 0.15
+				cavalry_attack_factor = 0.15
+				cavalry_defence_factor = 0.15
+				army_artillery_defence_factor = 0.15
 			}		
 
 		}
@@ -579,11 +581,55 @@ ideas = {
 		}
 
 	}
+materiel_manufacturer = {
 
-gaz = {
+		designer = yes
+
+		grabin_design_bureau = {
 
 
 			allowed = {
+				original_tag = SOV
+			}
+
+
+
+			research_bonus = {
+				artillery = 0.15
+			}
+
+			traits = { artillery_manufacturer }
+
+			modifier = {
+			}
+		}
+
+
+
+		tula_arms_plant = {
+
+
+			allowed = {
+				original_tag = SOV
+			}
+
+
+
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+
+			traits = { infantry_equipment_manufacturer }
+
+			modifier = {
+			}
+		}
+
+		gaz = {
+
+
+			allowed = {
+				original_tag = SOV
 				original_tag = MON
 			}
 			cost = 0
@@ -608,5 +654,5 @@ gaz = {
 			modifier = {
 			}
 		}
-
+	}
 }

@@ -26,8 +26,8 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.15
-				war_support_factor = -0.15
+				stability_factor = -0.10
+				war_support_factor = -0.10
 				consumer_goods_factor = -0.05
 				global_building_slots_factor = 0.15
 				production_speed_buildings_factor = 0.1				
@@ -57,9 +57,9 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.1
+				stability_factor = -0.25
 				consumer_goods_factor = -0.05
-				production_speed_buildings_factor = -0.1
+				production_speed_buildings_factor = -0.25
 			}
 		}
 		
@@ -74,8 +74,9 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.05
-				production_speed_buildings_factor = -0.05
+				stability_factor = -0.1
+				production_speed_buildings_factor = -0.15
+				consumer_goods_factor = 0.05
 			}
 		}
 		
@@ -90,7 +91,9 @@ ideas = {
 			}
 			
 			modifier = {
-				production_speed_buildings_factor = 0.1
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.1
+				consumer_goods_factor = 0.05
 			}
 		}
 		
@@ -121,10 +124,10 @@ ideas = {
 			}
 			
 			modifier = {
-				consumer_goods_factor = 0.1
-				local_resources_factor = -0.15
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
+				consumer_goods_factor = 0.05
+				local_resources_factor = -0.2
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
 			}
 		}
 		
@@ -397,7 +400,7 @@ ideas = {
 				has_completed_focus = MEX_MEXzilian_expeditionary_force
 			}
 			
-			traits = { army_infantry_3 }
+			traits = { army_commando_2 }
 			
 			ai_will_do = {
 				factor = 1

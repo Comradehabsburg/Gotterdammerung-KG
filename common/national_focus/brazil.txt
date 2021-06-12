@@ -29,7 +29,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_stability = 0.15
+			add_stability = 0.10
 			set_politics = {
 				ruling_party = democratic
 				elections_allowed = yes
@@ -46,10 +46,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 5
+				add_extra_state_shared_building_slots = 6
 				add_building_construction = {
 					type = industrial_complex
-					level = 5
+					level = 6
 					instant_build = yes
 				}
 			}			
@@ -130,7 +130,7 @@ focus_tree = {
 		relative_position_id = BRA_new_constitution
 		
 		available = {
-			threat > 0.1
+			threat > 0.15
 		}
 		
 		continue_if_invalid = yes
@@ -158,7 +158,7 @@ focus_tree = {
 		relative_position_id = BRA_great_depression_recovery
 	
 		available = {
-			threat > 0.25
+			threat > 0.30
 		}
 		
 		continue_if_invalid = yes
@@ -186,7 +186,7 @@ focus_tree = {
 		
 		available = {
 			USA = {
-				has_completed_focus = USA_neutrality_act
+				has_completed_focus = USA_guarantee_the_american_dream
 			}
 		}
 
@@ -231,9 +231,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				ENG = {
-					has_war_with = GER
-				}
+				date > 1940.10.1
 				USA = {
 					has_war_with = GER
 				}
@@ -325,6 +323,12 @@ focus_tree = {
 		relative_position_id = BRA_end_coffee_with_milk
 
 		cost = 10
+		
+		available = {
+			OR = {
+				date > 1937.3.1
+			}
+		}
 
 		ai_will_do = {
 			factor = 8
@@ -383,10 +387,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -402,7 +406,13 @@ focus_tree = {
 		relative_position_id = BRA_brazilian_modernisation
 
 		cost = 10
-
+		
+		available = {
+			OR = {
+				date > 1937.6.1
+			}
+		}
+		
 		ai_will_do = {
 			factor = 8
 		}
@@ -416,7 +426,7 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -435,6 +445,12 @@ focus_tree = {
 		relative_position_id = BRA_private_sector_expansion
 
 		cost = 10
+		
+		available = {
+			OR = {
+				date > 1938.6.1
+			}
+		}
 
 		ai_will_do = {
 			factor = 8
@@ -449,7 +465,7 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = industrial_complex
 					level = 2
@@ -631,6 +647,12 @@ focus_tree = {
 		relative_position_id = BRA_infrastructure_revitalisation
 
 		cost = 10
+		
+		available = {
+			OR = {
+				date > 1938.2.1
+			}
+		}
 
 		ai_will_do = {
 			factor = 8
@@ -707,6 +729,12 @@ focus_tree = {
 		relative_position_id = BRA_amazonian_rubber
 
 		cost = 10
+		
+		available = {
+			OR = {
+				date > 1939.1.1
+			}
+		}
 
 		ai_will_do = {
 			factor = 8
@@ -740,6 +768,12 @@ focus_tree = {
 		relative_position_id = BRA_brazilian_arms_investments
 
 		cost = 10
+		
+		available = {
+			OR = {
+				date > 1939.4.1
+			}
+		}
 
 		ai_will_do = {
 			factor = 8

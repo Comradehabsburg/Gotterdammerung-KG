@@ -38,7 +38,7 @@ focus_tree = {
 			if = {
 				limit = { FRA = { is_puppet = no } }
 				FRA = {
-					country_event = { id = germany.60 }
+					add_ideas = low_economic_mobilisation
 				}
 			}
 			add_tech_bonus = {

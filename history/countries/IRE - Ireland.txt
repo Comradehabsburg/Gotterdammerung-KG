@@ -6,22 +6,6 @@ set_stability = 0.80
 set_war_support = 0.35
 set_variable = { ROOT.SpecOpsLimit = 160 }
 
-add_intel = {
-	target = USA
-	civilian_intel = 200
-	army_intel = 200
-	navy_intel = 200
-	airforce_intel = 200
-}
-
-add_intel = {
-	target = SOV
-	civilian_intel = 200
-	army_intel = 200
-	navy_intel = 200
-	airforce_intel = 200
-}
-
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "IRE_1936_naval_mtg"
@@ -134,12 +118,12 @@ if = {
 
 add_equipment_to_stockpile = {
          type = artillery_equipment_1
-         amount = 600
+         amount = 500
          producer = IRE
 }  
 add_equipment_to_stockpile = {
          type = support_equipment
-         amount = 500
+         amount = 400
          producer = IRE
 } 
 add_equipment_to_stockpile = {
@@ -153,28 +137,13 @@ add_equipment_to_stockpile = {
          producer = IRE
 } 
 add_equipment_to_stockpile = {
-         type = infantry_equipment_0
-         amount = 4000
-         producer = IRE
-} 
-add_equipment_to_stockpile = {
          type = motorized_equipment_1
          amount = 100
          producer = IRE
 }
 add_equipment_to_stockpile = {
-         type = heavy_tank_equipment_1
-         amount = 100
-         producer = IRE
-}
-add_equipment_to_stockpile = {
-         type = light_tank_equipment_2
-         amount = 100
-         producer = IRE
-}
-add_equipment_to_stockpile = {
          type = light_tank_equipment_1
-         amount = 600
+         amount = 300
          producer = IRE
 } 
 
@@ -199,6 +168,16 @@ create_equipment_variant = {
 			rear_1_custom_slot = empty
 		}
 	}
+	create_country_leader = {
+	name = "Felipe Steiner"
+	desc = "POLITICS_GETULIO_VARGAS_DESC"
+	picture = "portrait_mex_felix_steiner.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		genial_anti_revolutionary
+	}
+}
 	create_corps_commander = {
 	name = "Thomas Victor Anderson"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
